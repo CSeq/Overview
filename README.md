@@ -1,4 +1,5 @@
-![Logo](logo.png)
+<img src="logo.png" width="200">
+
 
 # CSeq: A Family of Sequentialization-Based C Verification Tools
 

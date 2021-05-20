@@ -1,4 +1,4 @@
-# CSeq
+# CSeq: A Family of Sequentialization-Based C Verification Tools
 
 Sequentialization is a technique for the analysis of concurrent programs that exploits verification techniques or tools that were originally designed for sequential programs. Sequentialization can be implemented as a code-to-code translation from the concurrent program into a corresponding non-deterministic sequential program that simulates all executions of the original program. The sequential program contains both the mapping of the threads in the form of functions, and an encoding of the scheduler, where the non-determinism allows to handle different concurrent schedules collectively.
 This approach has three main advantages:

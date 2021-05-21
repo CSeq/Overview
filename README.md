@@ -47,42 +47,18 @@ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded
 * <a href="lazy-cseq-1.0" onclick="div_show(this);return false;">Lazy-CSeq-1.0</a>  (2016.01.31), <a href="./files/experiment_data.tar.gz">experiments</a> and <a href="./files/lazy-cseq-1.0-demo.mov">demo video</a>
 * <a href="lazy-cseq-0.6c" onclick="div_show(this);return false;">Lazy-CSeq-0.6c</a> (<a href="http://sv-comp.sosy-lab.org/2015/">SVCOMP'15</a> version)
           
-      <li>Awards:</li>
-      <ul>
-        <ul>
-        </ul>
-        <li>Silver medal in <a href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP'16</a>
-        </li>
-        <li>Gold medal in <a  href="http://sv-comp.sosy-lab.org/2015/results/Concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP'15</a>
-        </li>
-        <ul>
-        </ul>
-        <li>Gold medal in <a href="http://sv-comp.sosy-lab.org/2014/results/Concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP'14<br>
-            <br>
-          </a></li>
-        <ul>
-        </ul>
-      </ul>
-      <li>Supported backends:</li>
-      <ul>
-        <ul>
-        </ul>
-        <li><a href="http://www.cprover.org/cbmc/">CBMC</a></li>
-        <ul>
-        </ul>
-        <li><a href="http://www.esbmc.org/">ESBMC</a></li>
-        <ul>
-        </ul>
-        <li><a href="http://llbmc.org/">LLBMC<br>
-            <br>
-          </a></li>
-        <ul>
-        </ul>
-      </ul>
-      <ol>
-      </ol>
-    </ul>
-    
+          
+**Awards:** (incomplete)
+* Silver medal in <a href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP'16</a>
+* Gold medal in <a  href="http://sv-comp.sosy-lab.org/2015/results/Concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP'15</a>
+* Gold medal in <a href="http://sv-comp.sosy-lab.org/2014/results/Concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP'14       </a>
+        
+**Supported backends:** (incomplete)
+* <a href="http://www.cprover.org/cbmc/">CBMC</a>
+* <a href="http://www.esbmc.org/">ESBMC</a>
+* <a href="http://llbmc.org/">LLBMC</a>
+
+
 ## MU-CSeq
 
 MU-CSeq is a code-to-code translation tool for the verification of multi-threaded C programs with POSIX threads. It is based on sequentializing the programs according to a guessed sequence of write operations in the shared memory (memory unwinding, MU). The original algorithm (implemented in MU-CSeq 0.1) stores the values of all shared variables for each write (read-explicit fine-grained MU), which requires multiple copies of the shared variables. Our new algorithms (in MU-CSeq 0.3) store only the writes (read-implicit MU) or only a subset of the writes (coarse-grained MU), which reduces the memory footprint of the unwinding and so allows larger unwinding bounds.

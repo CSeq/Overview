@@ -22,13 +22,21 @@ VeriSmart is a novel parallel bug-finding framework for concurrent C programs.
 - <a href="verismart-1.0">VeriSmart-1.0</a>(2017.09.11), <a href="./files/ase17_experiments.tar.gz">experiments</a>
     
  
- ## Lazy-CSeq
+## Lazy-CSeq
  
- Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded C program into a nondeterministic sequential C program that preserves reachability for all round-robin schedules with a given bound on the number of rounds. It re-uses existing high-performance BMC tools as backends for the sequential verification problem. The translation is carefully designed to introduce very small memory overheads and very few sources of nondeterminism, so that it produces tight SAT/SMT formulae, and is thus very effective in practice. The tool has a script that bundles the translation and the verification.
+Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded C program into a nondeterministic sequential C program that preserves reachability for all round-robin schedules with a given bound on the number of rounds. It re-uses existing high-performance BMC tools as backends for the sequential verification problem. The translation is carefully designed to introduce very small memory overheads and very few sources of nondeterminism, so that it produces tight SAT/SMT formulae, and is thus very effective in practice. The tool has a script that bundles the translation and the verification.
         
 **Publications:**
-* <a href="http://eprints.soton.ac.uk/397759/">FMCAD'16</a>
-        </li>
+* _Lazy Sequentialization for TSO and PSO via Shared Memory Abstractions_.
+    <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
+    <a href="http://users.ecs.soton.ac.uk/tnl2g10/">T. L. Nguyen</a>,
+    <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+    <a href="http://www.cs.sun.ac.za/%7Ebfischer/">B. Fischer</a>,
+    <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
+    <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+    Formal Methods in Computer-Aided Design (<a href="http://www.cs.utexas.edu/users/hunt/FMCAD/FMCAD16/index.shtml">FMCAD</a>)
+    Mountain View, CA, USA, 2016.
+    (<a href="http://eprints.soton.ac.uk/397759/">PDF</a>)</li>
 * <a href="http://eprints.soton.ac.uk/379595/">ASE'15</a>
         </li>
 * <a href="http://eprints.soton.ac.uk/365365/">CAV'14</a></li>

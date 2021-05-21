@@ -24,47 +24,21 @@ VeriSmart is a novel parallel bug-finding framework for concurrent C programs.
  
  ## Lazy-CSeq
  
- Lazy-CSeq is a code-to-code transformation tool that translates
-        a multi-threaded C program into a nondeterministic sequential C
-        program that preserves reachability for all round-robin
-        schedules with a given bound on the number of rounds. It re-uses
-        existing high-performance BMC tools as backends for the
-        sequential verification problem. The translation is carefully
-        designed to introduce very small memory overheads and very few
-        sources of nondeterminism, so that it produces tight SAT/SMT
-        formulae, and is thus very effective in practice. The tool has a
-        script that bundles the translation and the verification.<br>
+ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded C program into a nondeterministic sequential C program that preserves reachability for all round-robin schedules with a given bound on the number of rounds. It re-uses existing high-performance BMC tools as backends for the sequential verification problem. The translation is carefully designed to introduce very small memory overheads and very few sources of nondeterminism, so that it produces tight SAT/SMT formulae, and is thus very effective in practice. The tool has a script that bundles the translation and the verification.
+        
+**Publications:**
+* <a href="http://eprints.soton.ac.uk/397759/">FMCAD'16</a>
+        </li>
+* <a href="http://eprints.soton.ac.uk/379595/">ASE'15</a>
+        </li>
+* <a href="http://eprints.soton.ac.uk/365365/">CAV'14</a></li>
+* <a href="http://eprints.soton.ac.uk/363742/">SV-COMP'14</a>
 
-    <ul>
-      <li>Publications:</li>
-      <ul>
-        <li><a href="http://eprints.soton.ac.uk/397759/">FMCAD'16</a><br>
-        </li>
-        <li><a href="http://eprints.soton.ac.uk/379595/">ASE'15</a><br>
-        </li>
-        <li><a href="http://eprints.soton.ac.uk/365365/">CAV'14</a></li>
-        <li><a href="http://eprints.soton.ac.uk/363742/">SV-COMP'14</a><br>
-          <br>
-        </li>
-      </ul>
-      <li>Downloads:</li>
-      <ul>
-        <ul>
-        </ul>
-        <li><a href="lazy-cseq-2.0" onclick="div_show(this);return false;">Lazy-CSeq-2.0</a>
-          (2017.02.14)<br>
-        </li>
-        <li><a href="lazy-cseq-1.0" onclick="div_show(this);return false;">Lazy-CSeq-1.0</a>
-          (2016.01.31), <a href="./files/experiment_data.tar.gz">experiments</a>
-          and <a href="./files/lazy-cseq-1.0-demo.mov">demo video</a></li>
-        <li><a href="lazy-cseq-0.6c" onclick="div_show(this);return false;">Lazy-CSeq-0.6c</a> (<a
-            href="http://sv-comp.sosy-lab.org/2015/">SVCOMP'15</a>
-          version)<br>
-          <br>
-        </li>
-        <ul>
-        </ul>
-      </ul>
+**Downloads:**
+* <a href="lazy-cseq-2.0" onclick="div_show(this);return false;">Lazy-CSeq-2.0</a>  (2017.02.14)
+* <a href="lazy-cseq-1.0" onclick="div_show(this);return false;">Lazy-CSeq-1.0</a>  (2016.01.31), <a href="./files/experiment_data.tar.gz">experiments</a> and <a href="./files/lazy-cseq-1.0-demo.mov">demo video</a>
+* <a href="lazy-cseq-0.6c" onclick="div_show(this);return false;">Lazy-CSeq-0.6c</a> (<a href="http://sv-comp.sosy-lab.org/2015/">SVCOMP'15</a> version)
+          
       <li>Awards:</li>
       <ul>
         <ul>

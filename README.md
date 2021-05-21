@@ -15,26 +15,11 @@ CSeq is a framework that facilitates the development of code-to-code translation
 
 VeriSmart is a novel parallel bug-finding framework for concurrent C programs.
 
-    <ul>
-      <li>Publications:</li>
-      <ul>
-        <li><a href="https://eprints.soton.ac.uk/413917/">ASE'17</a><br> </li>
-      </ul>
-      <br />
-      <li>Downloads:</li>
-      <ul>
-        <ul>
-        </ul>
-        <li><a href="verismart-1.0" onclick="div_show(this);return false;">VeriSmart-1.0</a>
-          (2017.09.11), <a href="./files/ase17_experiments.tar.gz">experiments</a>
-        </li>
-        <ul>
-        </ul>
-      </ul>
-      <ol>
-      </ol>
-    </ul>
-    <h3><b>
+**Publications:**
+- (full reference missing) <a href="https://eprints.soton.ac.uk/413917/">ASE'17</a>
+
+**Downloads:**
+- <a href="verismart-1.0">VeriSmart-1.0</a>(2017.09.11), <a href="./files/ase17_experiments.tar.gz">experiments</a>
     
  
  ## Lazy-CSeq

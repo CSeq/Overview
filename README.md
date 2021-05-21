@@ -1,7 +1,7 @@
 
 
 
-# <img src="logo.png" width="75">: A Family of Sequentialization-Based C Verification Tools
+# <img src="logo.png" width="80"> : A Family of Sequentialization-Based C Verification Tools
 
 Sequentialization is a technique for the analysis of concurrent programs that exploits verification techniques or tools that were originally designed for sequential programs. Sequentialization can be implemented as a code-to-code translation from the concurrent program into a corresponding non-deterministic sequential program that simulates all executions of the original program. The sequential program contains both the mapping of the threads in the form of functions, and an encoding of the scheduler, where the non-determinism allows to handle different concurrent schedules collectively.
 This approach has three main advantages:
@@ -11,14 +11,12 @@ This approach has three main advantages:
 
 CSeq is a framework that facilitates the development of code-to-code translations for concurrent C programs with POSIX threads based on sequentialization. 
 
-   The following are verification tools that have been developed under
-    the CSeq framework: <b><br>
-    </b>
-    <h3><b>VeriSmart</b></h3>
-    <blockquote>
-      <p>VeriSmart is a novel parallel bug-finding framework for concurrent C programs.<br>
-      </p>
-    </blockquote>
+The following are verification tools that have been developed under the CSeq framework.
+
+## VeriSmart
+
+VeriSmart is a novel parallel bug-finding framework for concurrent C programs.
+
     <ul>
       <li>Publications:</li>
       <ul>
@@ -87,46 +85,15 @@ CSeq is a framework that facilitates the development of code-to-code translation
         <ul>
         </ul>
         <li>Silver medal in <a
-href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.table.html">concurrency
-
-
-
-
-
-
-            category</a> at <a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP'16</a>
+href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP'16</a>
         </li>
         <li>Gold medal in <a
-            href="http://sv-comp.sosy-lab.org/2015/results/Concurrency.table.html">concurrency
-
-
-
-
-
-
-            category</a> at <a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP'15</a>
+            href="http://sv-comp.sosy-lab.org/2015/results/Concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP'15</a>
         </li>
         <ul>
         </ul>
         <li>Gold medal in <a
-            href="http://sv-comp.sosy-lab.org/2014/results/Concurrency.table.html">concurrency
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            category</a> at <a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP'14<br>
+            href="http://sv-comp.sosy-lab.org/2014/results/Concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP'14<br>
             <br>
           </a></li>
         <ul>
@@ -151,10 +118,10 @@ href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.tabl
       <ol>
       </ol>
     </ul>
-    <h3><b>MU-CSeq</b></h3>
-    <blockquote>
-      <p>MU-CSeq is a code-to-code translation tool for the verification
-        of multi-threaded C programs with POSIX threads. It is based on
+    
+## MU-CSeq
+
+MU-CSeq is a code-to-code translation tool for the verification of multi-threaded C programs with POSIX threads. It is based on
         sequentializing the programs according to a guessed sequence of
         write operations in the shared memory (memory unwinding, MU).
         The original algorithm (implemented in MU-CSeq 0.1) stores the
@@ -163,11 +130,8 @@ href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.tabl
         variables. Our new algorithms (in MU-CSeq 0.3) store only the
         writes (read-implicit MU) or only a subset of the writes
         (coarse-grained MU), which reduces the memory footprint of the
-        unwinding and so allows larger unwinding bounds.<br>
-        <meta http-equiv="content-type" content="text/html;
-          charset=UTF-8">
-      </p>
-    </blockquote>
+        unwinding and so allows larger unwinding bounds.
+
     <ul>
       <li>Publications:</li>
       <ul>
@@ -195,42 +159,14 @@ href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.tabl
       <ul>
         <li>Gold medal in <a
 href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.table.html">concurrency
-
-
-
-
-
-
             category</a> at <a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP'16</a>
         </li>
         <li>Silver medal in <a
             href="http://sv-comp.sosy-lab.org/2015/results/Concurrency.table.html">concurrency
-
-
-
-
-
-
             category</a> at <a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP'15</a>
         </li>
         <li>Silver medal in <a
             href="http://sv-comp.sosy-lab.org/2014/results/Concurrency.table.html">concurrency
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             category</a> at <a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP'14<br>
             <br>
           </a></li>
@@ -242,7 +178,8 @@ href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.tabl
           </a></li>
       </ul>
     </ul>
-    <h3><b>UL-CSeq</b></h3>
+
+## UL-CSeq
     <blockquote>
       <p>UL-CSeq is a code-to-code translation tool for the verification
         of multi-threaded C programs with dynamic thread creation. This
@@ -289,12 +226,6 @@ href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.tabl
         <li><a href="http://seahorn.github.io/">SeaHorn</a></li>
         <li><a
 href="https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=tool&amp;tool=automizer">Ultimate
-
-
-
-
-
-
             Automizer</a><br>
         </li>
       </ul>
@@ -344,22 +275,6 @@ href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.tabl
       <ul>
         <li>Silver medal in <a
             href="http://sv-comp.sosy-lab.org/2013/results/concurrency.table.html">concurrency
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             category</a> at <a href="http://sv-comp.sosy-lab.org/2013/">SV-COMP'13</a><br>
           <br>
         </li>
@@ -609,10 +524,8 @@ href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.tabl
       <li><a href="http://users.ecs.soton.ac.uk/gp4/">Gennaro Parlato</a>
         (University of Southampton, UK)</li>
     </ul>
-    <h2>Funding</h2>
+ 
+## Funding
     This project is partially supported by <a
       href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/M008991/1">EPSRC</a>.<br>
-    <br>
-    <br>
-    <br>
     <br>

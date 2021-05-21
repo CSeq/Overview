@@ -84,16 +84,13 @@ VeriSmart is a novel parallel bug-finding framework for concurrent C programs.
       <ul>
         <ul>
         </ul>
-        <li>Silver medal in <a
-href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP'16</a>
+        <li>Silver medal in <a href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP'16</a>
         </li>
-        <li>Gold medal in <a
-            href="http://sv-comp.sosy-lab.org/2015/results/Concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP'15</a>
+        <li>Gold medal in <a  href="http://sv-comp.sosy-lab.org/2015/results/Concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP'15</a>
         </li>
         <ul>
         </ul>
-        <li>Gold medal in <a
-            href="http://sv-comp.sosy-lab.org/2014/results/Concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP'14<br>
+        <li>Gold medal in <a href="http://sv-comp.sosy-lab.org/2014/results/Concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP'14<br>
             <br>
           </a></li>
         <ul>
@@ -121,16 +118,7 @@ href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.tabl
     
 ## MU-CSeq
 
-MU-CSeq is a code-to-code translation tool for the verification of multi-threaded C programs with POSIX threads. It is based on
-        sequentializing the programs according to a guessed sequence of
-        write operations in the shared memory (memory unwinding, MU).
-        The original algorithm (implemented in MU-CSeq 0.1) stores the
-        values of all shared variables for each write (read-explicit
-        fine-grained MU), which requires multiple copies of the shared
-        variables. Our new algorithms (in MU-CSeq 0.3) store only the
-        writes (read-implicit MU) or only a subset of the writes
-        (coarse-grained MU), which reduces the memory footprint of the
-        unwinding and so allows larger unwinding bounds.
+MU-CSeq is a code-to-code translation tool for the verification of multi-threaded C programs with POSIX threads. It is based on sequentializing the programs according to a guessed sequence of write operations in the shared memory (memory unwinding, MU). The original algorithm (implemented in MU-CSeq 0.1) stores the values of all shared variables for each write (read-explicit fine-grained MU), which requires multiple copies of the shared variables. Our new algorithms (in MU-CSeq 0.3) store only the writes (read-implicit MU) or only a subset of the writes (coarse-grained MU), which reduces the memory footprint of the unwinding and so allows larger unwinding bounds.
 
     <ul>
       <li>Publications:</li>
@@ -157,16 +145,13 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
       </ul>
       <li>Awards:</li>
       <ul>
-        <li>Gold medal in <a
-href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.table.html">concurrency
+        <li>Gold medal in <a href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.table.html">concurrency
             category</a> at <a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP'16</a>
         </li>
-        <li>Silver medal in <a
-            href="http://sv-comp.sosy-lab.org/2015/results/Concurrency.table.html">concurrency
+        <li>Silver medal in <a href="http://sv-comp.sosy-lab.org/2015/results/Concurrency.table.html">concurrency
             category</a> at <a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP'15</a>
         </li>
-        <li>Silver medal in <a
-            href="http://sv-comp.sosy-lab.org/2014/results/Concurrency.table.html">concurrency
+        <li>Silver medal in <a href="http://sv-comp.sosy-lab.org/2014/results/Concurrency.table.html">concurrency
             category</a> at <a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP'14<br>
             <br>
           </a></li>
@@ -181,13 +166,7 @@ href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.tabl
 
 ## UL-CSeq
 
-UL-CSeq is a code-to-code translation tool for the verification
-        of multi-threaded C programs with dynamic thread creation. This
-        tool implements a variation of the lazy sequentialization
-        algorithm implemented in Lazy-CSeq. The main novelty is that
-        UL-CSeq supports an unbounded number of context switches and
-        allow unbounded loops, while the number of allowed threads still
-        remains bounded.
+UL-CSeq is a code-to-code translation tool for the verification of multi-threaded C programs with dynamic thread creation. This tool implements a variation of the lazy sequentialization algorithm implemented in Lazy-CSeq. The main novelty is that UL-CSeq supports an unbounded number of context switches and allow unbounded loops, while the number of allowed threads still remains bounded.
 
     <ul>
       <ul>

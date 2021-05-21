@@ -3,15 +3,13 @@
 
 # <img src="logo.png" width="80"> : A Family of Sequentialization-Based C Verification Tools
 
-Sequentialization is a technique for the analysis of concurrent programs that exploits verification techniques or tools that were originally designed for sequential programs. Sequentialization can be implemented as a code-to-code translation from the concurrent program into a corresponding non-deterministic sequential program that simulates all executions of the original program. The sequential program contains both the mapping of the threads in the form of functions, and an encoding of the scheduler, where the non-determinism allows to handle different concurrent schedules collectively.
+Sequentialization is a technique for the analysis of concurrent programs that exploits verification techniques or tools that were originally designed for sequential programs. Sequentialization can be implemented as a code-to-code translation from the concurrent program into a corresponding non-deterministic sequential program that simulates all executions of the original program. The sequential program contains both the mapping of the threads in the form of functions, and an encoding of the scheduler, were the non-determinism allows to handle different concurrent schedules collectively.
 This approach has three main advantages:
 * a code-to-code translation is typically much easier to implement than a full-fledged analysis tool;
 * it allows designers to focus only on the concurrency aspects of programs, delegating all sequential reasoning to an existing target analysis tool;
 * sequentializations can be designed to target multiple backends for sequential program analysis.
 
-CSeq is a framework that facilitates the development of code-to-code translations for concurrent C programs with POSIX threads based on sequentialization. 
-
-The following are verification tools that have been developed under the CSeq framework.
+CSeq is a framework that facilitates the development of code-to-code translations for concurrent C programs with POSIX threads based on sequentialization. The following are verification tools that have been developed under the CSeq framework.
 
 ## VeriSmart
 
@@ -225,8 +223,7 @@ UL-CSeq is a code-to-code translation tool for the verification
         <li><a href="http://cpachecker.sosy-lab.org/">CPAChecker</a><br>
         </li>
         <li><a href="http://seahorn.github.io/">SeaHorn</a></li>
-        <li><a
-href="https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=tool&amp;tool=automizer">Ultimate
+        <li><a href="https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=tool&amp;tool=automizer">Ultimate
             Automizer</a><br>
         </li>
       </ul>
@@ -237,20 +234,20 @@ href="https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=tool&amp;
       </ul>
       <li>SV-COMP results:</li>
       <ul>
-        <li><a
-href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.table.html">2016</a>
+        <li><a href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.table.html">2016</a>
         </li>
-        <li><a
-            href="http://sv-comp.sosy-lab.org/2015/results/Concurrency.table.html">2015</a>
+        <li><a             href="http://sv-comp.sosy-lab.org/2015/results/Concurrency.table.html">2015</a>
         </li>
       </ul>
     </ul>
-    <h3><b>Lal-Reps CSeq</b>&nbsp; &nbsp;&nbsp; </h3>
-    <blockquote>Lal-Reps CSeq is a code-to-code translation tool which
-      implements a novel sequentialization for C programs using POSIX
-      threads, which extends the Lal/Reps sequentialization to support
-      dynamic thread creation.<br>
-    </blockquote>
+    <h3><b>
+    
+    
+ 
+ ## LR CSeq
+
+LR-CSeq is a code-to-code translation tool which implements a novel sequentialization for C programs using POSIX threads, which extends the Lal/Reps sequentialization schema to support dynamic thread creation.
+
     <ul>
       <ul>
       </ul>
@@ -507,23 +504,23 @@ href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.tabl
     </ol>
     <ul>
     </ul>
-    <h2>People</h2>
-    CSeq is developed by :<br>
-    <ul>
-      <li><a href="http://www.ecs.soton.ac.uk/people/oi2c11">Omar
-          Inverso</a> (University of Southampton, UK)</li>
-      <li><a href="http://users.ecs.soton.ac.uk/tnl2g10/">Truc L. Nguyen</a>
-        (University of Southampton, UK)</li>
-      <li><a href="http://www.ecs.soton.ac.uk/people/et1m11">Ermenegildo
-          Tomasco</a> (University of Southampton, UK)</li>
-      <li><a href="http://www.cs.sun.ac.za/%7Ebfischer/">Bernd Fischer</a>
-        (University of Stellenbosch, South Africa) <br>
-      </li>
-      <li><a href="http://www.di.unisa.it/%7Elatorre">Salvatore La Torre</a>
-        (University of Salerno, Italy)</li>
-      <li><a href="http://users.ecs.soton.ac.uk/gp4/">Gennaro Parlato</a>
-        (University of Southampton, UK)</li>
-    </ul>
+    
+    
+## People
+
+CSeq is developed by:
+* <a href="http://www.ecs.soton.ac.uk/people/oi2c11">Omar
+          Inverso</a> (University of Southampton, UK)
+* <a href="http://users.ecs.soton.ac.uk/tnl2g10/">Truc L. Nguyen</a>
+        (University of Southampton, UK)
+* <a href="http://www.ecs.soton.ac.uk/people/et1m11">Ermenegildo
+          Tomasco</a> (University of Southampton, UK)
+* <a href="http://www.cs.sun.ac.za/%7Ebfischer/">Bernd Fischer</a>
+        (University of Stellenbosch, South Africa) 
+* <a href="http://www.di.unisa.it/%7Elatorre">Salvatore La Torre</a>
+        (University of Salerno, Italy)
+* <a href="http://users.ecs.soton.ac.uk/gp4/">Gennaro Parlato</a>
+        (University of Southampton, UK)
  
 ## Funding
     This project is partially supported by <a

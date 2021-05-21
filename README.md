@@ -36,9 +36,12 @@ VeriSmart is a novel parallel bug-finding framework for concurrent C programs.
       <ol>
       </ol>
     </ul>
-    <h3><b>Lazy-CSeq</b></h3>
-    <blockquote>
-      <p>Lazy-CSeq is a code-to-code transformation tool that translates
+    <h3><b>
+    
+ 
+ ## Lazy-CSeq
+ 
+ Lazy-CSeq is a code-to-code transformation tool that translates
         a multi-threaded C program into a nondeterministic sequential C
         program that preserves reachability for all round-robin
         schedules with a given bound on the number of rounds. It re-uses
@@ -48,8 +51,7 @@ VeriSmart is a novel parallel bug-finding framework for concurrent C programs.
         sources of nondeterminism, so that it produces tight SAT/SMT
         formulae, and is thus very effective in practice. The tool has a
         script that bundles the translation and the verification.<br>
-      </p>
-    </blockquote>
+
     <ul>
       <li>Publications:</li>
       <ul>
@@ -180,16 +182,15 @@ href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.tabl
     </ul>
 
 ## UL-CSeq
-    <blockquote>
-      <p>UL-CSeq is a code-to-code translation tool for the verification
+
+UL-CSeq is a code-to-code translation tool for the verification
         of multi-threaded C programs with dynamic thread creation. This
         tool implements a variation of the lazy sequentialization
         algorithm implemented in Lazy-CSeq. The main novelty is that
         UL-CSeq supports an unbounded number of context switches and
         allow unbounded loops, while the number of allowed threads still
-        remains bounded.<br>
-      </p>
-    </blockquote>
+        remains bounded.
+
     <ul>
       <ul>
       </ul>
@@ -285,10 +286,9 @@ href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.tabl
             href="http://sv-comp.sosy-lab.org/2013/results/concurrency.table.html">2013</a></li>
       </ul>
     </ul>
-    <h2>Publications </h2>
-    <p> </p>
-    <ul>
-    </ul>
+
+## Publications
+
     <ol>
       <li><b>Lazy Sequentialization for TSO and PSO via Shared Memory
           Abstractions</b><br>

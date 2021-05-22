@@ -68,8 +68,25 @@ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded
         <a href="http://www.etaps.org/2015/tacas">TACAS,</a>
         London, UK, 2015.
         (<a href="http://eprints.soton.ac.uk/370673/">PDF</a>)<br>
-* <a href="http://eprints.soton.ac.uk/365365/">CAV'14</a>
-* <a href="http://eprints.soton.ac.uk/363742/">SV-COMP'14</a>
+* _Bounded Model Checking of Multi-Threaded C Programs via Lazy Sequentialization_.
+        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+        <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
+        <a href="http://www.cs.sun.ac.za/%7Ebfischer/">B. Fischer</a>,
+        <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
+        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        26th Int'l Conference on Computer Aided Verification (<a href="http://eprints.soton.ac.uk/365365/">CAV</a>),
+        Vienna, Austria, 2014.
+        (<a href="http://eprints.soton.ac.uk/365365/">PDF</a>) 
+ * _Lazy-CSeq: A Lazy Sequentialization Tool for C (Competition Contribution)_.
+        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+        <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
+        <a href="http://www.cs.sun.ac.za/%7Ebfischer/">B. Fischer</a>,
+        <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
+        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        3rd Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP</a>), held at
+        <a href="http://www.etaps.org/index.php/2014/tacas">TACAS</a>,
+        Grenoble, France, 2014,
+        (<a href="http://eprints.soton.ac.uk/363742/">PDF</a>)
 
 **Downloads:**
 * <a href="lazy-cseq-2.0">Lazy-CSeq-2.0</a>  (2017.02.14)
@@ -113,6 +130,26 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
         <a href="http://www.etaps.org/index.php/2014/tacas">TACAS</a>,
         Grenoble, France, 2014.
         (<a href="http://eprints.soton.ac.uk/363741/">PDF</a>) <br>
+* _Verifying Concurrent Programs by Memory Unwinding_.
+        <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
+        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+        <a href="http://www.cs.sun.ac.za/%7Ebfischer/">B. Fischer</a>,
+        <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
+        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        21st Int'l Conference on Tools and Algorithms for the
+        Construction and Analysis of Systems (<a href="http://www.etaps.org/2015/tacas">TACAS</a>),
+        London, UK, 2015.
+        (<a href="http://eprints.soton.ac.uk/370322/">PDF</a>)
+* _MU-CSeq 0.3: Sequentialization by Read-implicit and Coarse-grained Memory Unwindings (Competition Contribution)_.
+        <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
+        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+        <a href="http://www.cs.sun.ac.za/%7Ebfischer/">B. Fischer</a>,
+        <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
+        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        4th Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP</a>), held at
+        <a href="http://www.etaps.org/2015/tacas">TACAS</a>,<
+        London, UK, 2015.
+        (<a href="http://eprints.soton.ac.uk/370671/">PDF</a>)
 
 **Downloads:**
 * <a href="mu-cseq-0.4">MU-CSeq-0.4</a> (<a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP'16</a> version)
@@ -124,17 +161,6 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
 **Supported backends:** (incomplete)
 * ...
 
-    <ul>
-      <li>Publications:</li>
-      <ul>
-        <li><a href="http://eprints.soton.ac.uk/386736/">SV-COMP'16</a></li>
-        <li><a href="http://eprints.soton.ac.uk/370322/">TACAS'15</a></li>
-        <li><a href="http://eprints.soton.ac.uk/370672/">SV-COMP'15</a><br>
-        </li>
-        <li><a href="http://eprints.soton.ac.uk/363741/">SV-COMP'14</a><br>
-          <br>
-        </li>
-      </ul>
       <li>Awards:</li>
       <ul>
         <li>Gold medal in <a href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.table.html">concurrency
@@ -252,73 +278,6 @@ LR-CSeq is a code-to-code translation tool which implements a novel sequentializ
   <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>.
   PhD Thesis, University of Southampton, 2015.
   (<a href="http://eprints.soton.ac.uk/386739/">PDF</a>)
-        
-    <ol>
-
-      <li><b>Verifying Concurrent Programs by Memory Unwinding</b><br>
-        <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
-        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
-        <a href="http://www.cs.sun.ac.za/%7Ebfischer/">B. Fischer</a>, <a
-          href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.<br>
-        21st Int'l Conference on Tools and Algorithms for the
-        Construction and Analysis of Systems (<a
-          href="http://www.etaps.org/2015/tacas">TACAS</a>),<br>
-        London, UK,&nbsp; 2015.<br>
-        (<a href="http://eprints.soton.ac.uk/370322/">PDF</a>) <br>
-        <br>
-      </li>
-
-      <li><b>MU-CSeq 0.3: Sequentialization by Read-implicit and
-          Coarse-grained Memory Unwindings (Competition Contribution)<br>
-        </b><a href="http://www.ecs.soton.ac.uk/people/et1m11">E.
-          Tomasco</a>, <a
-          href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
-        <a href="http://www.cs.sun.ac.za/%7Ebfischer/">B. Fischer</a>, <a
-          href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.<br>
-        4th Intl. Competition on Software Verification (<a
-          href="http://sv-comp.sosy-lab.org/2015/">SV-COMP</a>), held at
-        <a href="http://www.etaps.org/2015/tacas">TACAS</a>,<br>
-        London, UK,&nbsp; 2015.<br>
-        (<a href="http://eprints.soton.ac.uk/370671/">PDF</a>)<br>
-        <br>
-      </li>
-
-      <li>
-        <meta http-equiv="content-type" content="text/html;
-          charset=UTF-8">
-        <b>Bounded Model Checking of Multi-Threaded C Programs via Lazy
-          Sequentialization</b><br>
-        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
-        <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
-        <a href="http://www.cs.sun.ac.za/%7Ebfischer/">B. Fischer</a>, <a
-          href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.<br>
-        26th Int'l Conference on Computer Aided Verification (<a
-          href="http://eprints.soton.ac.uk/365365/">CAV</a>),<br>
-        Vienna, Austria, 2014.<br>
-        (<a href="http://eprints.soton.ac.uk/365365/">PDF</a>) <br>
-        <br>
-      </li>
-      <li><b>Lazy-CSeq: A Lazy Sequentialization Tool for C (Competition
-          Contribution)</b><br>
-        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
-        <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
-        <a href="http://www.cs.sun.ac.za/%7Ebfischer/">B. Fischer</a>, <a
-          href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.<br>
-        3rd Intl. Competition on Software Verification (<a
-          href="http://sv-comp.sosy-lab.org/2014/">SV-COMP</a>), held at
-        <a href="http://www.etaps.org/index.php/2014/tacas">TACAS</a>,<br>
-        Grenoble, France, 2014<br>
-        (<a href="http://eprints.soton.ac.uk/363742/">PDF</a>)<br>
-        <br>
-      </li>
-
-    </ol>
-    <ul>
-    </ul>
     
     
 ## People
@@ -337,7 +296,5 @@ CSeq is developed by:
 * <a href="http://users.ecs.soton.ac.uk/gp4/">Gennaro Parlato</a>
         (University of Southampton, UK)
  
-## Funding
-    This project is partially supported by <a
-      href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/M008991/1">EPSRC</a>.<br>
-    <br>
+## Funding (incomplete)
+This project is partially supported by <a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/M008991/1">EPSRC</a>.

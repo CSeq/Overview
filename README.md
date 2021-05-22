@@ -196,7 +196,21 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
 LR-CSeq is a code-to-code translation tool which implements a novel sequentialization for C programs using POSIX threads, which extends the Lal/Reps sequentialization schema to support dynamic thread creation.
     
 **Publications:**
-* ...
+* _CSeq: A Concurrency Pre-processor for Sequential C Verification Tools (Tool Demonstration)_.
+        <a href="http://www.cs.sun.ac.za/%7Ebfischer/">B. Fischer</a>, <a
+          href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+        and <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.<br>
+        28th IEEE/ACM International Conference on Automated Software
+        Engineering (<a href="http://ase-conferences.org/ase/past/ase2013/">ASE</a>),
+        Palo Alto, CA, USA, 2013.
+        (<a href="http://eprints.soton.ac.uk/365366/">PDF</a>)
+* _CSeq: A Sequentialization Tool for C (Competition Contribution)_.
+        <a href="http://www.cs.sun.ac.za/%7Ebfischer/">B. Fischer</a>, <a
+          href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+        and <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        2nd Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2013/">SV-COMP</a>), held at
+        <a href="http://www.etaps.org/index.php/2013/tacas">TACAS</a>, Rome, Italy, 2013.
+        (<a href="http://eprints.soton.ac.uk/351904/">PDF</a>)
 
 **Downloads:**
 * ...
@@ -438,29 +452,6 @@ LR-CSeq is a code-to-code translation tool which implements a novel sequentializ
         (<a href="http://eprints.soton.ac.uk/363741/">PDF</a>) <br>
         <br>
       </li>
-      <li> <b>CSeq: A Concurrency Pre-processor for Sequential C
-          Verification Tools (Tool Demonstration)</b><br>
-        <a href="http://www.cs.sun.ac.za/%7Ebfischer/">B. Fischer</a>, <a
-          href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
-        and <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.<br>
-        28th IEEE/ACM International Conference on Automated Software
-        Engineering (<a
-          href="http://ase-conferences.org/ase/past/ase2013/">ASE</a>),
-        <br>
-        Palo Alto, CA, USA, 2013<br>
-        (<a href="http://eprints.soton.ac.uk/365366/">PDF</a>)<br>
-        <br>
-      </li>
-      <li> <b>CSeq: A Sequentialization Tool for C (Competition
-          Contribution)</b><br>
-        <a href="http://www.cs.sun.ac.za/%7Ebfischer/">B. Fischer</a>, <a
-          href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
-        and <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.<br>
-        2nd Intl. Competition on Software Verification (<a
-          href="http://sv-comp.sosy-lab.org/2013/">SV-COMP</a>), held at
-        <a href="http://www.etaps.org/index.php/2013/tacas">TACAS</a>, <br>
-        Rome, Italy, 2013<br>
-        (<a href="http://eprints.soton.ac.uk/351904/">PDF</a>) </li>
     </ol>
     <ul>
     </ul>

@@ -63,6 +63,20 @@ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded
 
 MU-CSeq is a code-to-code translation tool for the verification of multi-threaded C programs with POSIX threads. It is based on sequentializing the programs according to a guessed sequence of write operations in the shared memory (memory unwinding, MU). The original algorithm (implemented in MU-CSeq 0.1) stores the values of all shared variables for each write (read-explicit fine-grained MU), which requires multiple copies of the shared variables. Our new algorithms (in MU-CSeq 0.3) store only the writes (read-implicit MU) or only a subset of the writes (coarse-grained MU), which reduces the memory footprint of the unwinding and so allows larger unwinding bounds.
 
+**Publications:**
+* ...
+
+**Downloads:**
+* ...
+          
+          
+**Awards:** (incomplete)
+* ...
+        
+**Supported backends:** (incomplete)
+* ...
+
+
     <ul>
       <li>Publications:</li>
       <ul>
@@ -110,6 +124,19 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
 ## UL-CSeq
 
 UL-CSeq is a code-to-code translation tool for the verification of multi-threaded C programs with dynamic thread creation. This tool implements a variation of the lazy sequentialization algorithm implemented in Lazy-CSeq. The main novelty is that UL-CSeq supports an unbounded number of context switches and allow unbounded loops, while the number of allowed threads still remains bounded.
+
+**Publications:**
+* ...
+
+**Downloads:**
+* ...
+          
+          
+**Awards:** (incomplete)
+* ...
+        
+**Supported backends:** (incomplete)
+* ...
 
     <ul>
       <ul>
@@ -162,13 +189,24 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
         </li>
       </ul>
     </ul>
-    <h3><b>
     
     
- 
- ## LR CSeq
+## LR CSeq
 
 LR-CSeq is a code-to-code translation tool which implements a novel sequentialization for C programs using POSIX threads, which extends the Lal/Reps sequentialization schema to support dynamic thread creation.
+    
+**Publications:**
+* ...
+
+**Downloads:**
+* ...
+          
+          
+**Awards:** (incomplete)
+* ...
+        
+**Supported backends:** (incomplete)
+* ...
 
     <ul>
       <ul>

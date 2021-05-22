@@ -213,52 +213,18 @@ LR-CSeq is a code-to-code translation tool which implements a novel sequentializ
         (<a href="http://eprints.soton.ac.uk/351904/">PDF</a>)
 
 **Downloads:**
-* ...
+* <a href="lr-cseq-0.5">CSeq-0.5</a> (ASE version,
+          includes benchmarks, <a href="./files/cseq-0.5-demo.mov">demo video</a>)
+* <a href="lr-cseq-0.1a">CSeq-0.1a</a> (<a href="http://sv-comp.sosy-lab.org/2013/">SV-COMP'13</a> version)
           
           
-**Awards:** (incomplete)
-* ...
+**Awards:**
+* Silver medal in <a  href="http://sv-comp.sosy-lab.org/2013/results/concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2013/">SV-COMP'13</a>
         
 **Supported backends:** (incomplete)
 * ...
 
-    <ul>
-      <ul>
-      </ul>
-      <li>Publications:</li>
-      <ul>
-        <li><a href="http://eprints.soton.ac.uk/365366/">ASE'13</a></li>
-        <li><a href="http://eprints.soton.ac.uk/351904/">SV-COMP'13</a><br>
-          <br>
-        </li>
-      </ul>
-      <li>Downloads:</li>
-      <ul>
-        <li><a href="lr-cseq-0.5" onclick="div_show(this);return false;">CSeq-0.5</a> (ASE version,
-          includes benchmarks, <a href="./files/cseq-0.5-demo.mov">demo
-            video</a>)</li>
-        <li><a href="lr-cseq-0.1a" onclick="div_show(this);return false;">CSeq-0.1a</a> (<a
-            href="http://sv-comp.sosy-lab.org/2013/">SV-COMP'13</a>
-          version)<br>
-          <br>
-        </li>
-      </ul>
-      <li>Awards:</li>
-      <ul>
-        <li>Silver medal in <a
-            href="http://sv-comp.sosy-lab.org/2013/results/concurrency.table.html">concurrency
-            category</a> at <a href="http://sv-comp.sosy-lab.org/2013/">SV-COMP'13</a><br>
-          <br>
-        </li>
-      </ul>
-      <li>SV-COMP results:</li>
-      <ul>
-        <li><a
-            href="http://sv-comp.sosy-lab.org/2013/results/concurrency.table.html">2013</a></li>
-      </ul>
-    </ul>
-
-## Publications
+## Publications (to be deleted)
 
     <ol>
       <li><b>Lazy Sequentialization for TSO and PSO via Shared Memory

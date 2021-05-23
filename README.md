@@ -156,31 +156,16 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
 * <a href="mu-cseq-0.3">MU-CSeq-0.3</a> (<a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP'15</a> version)
           
 **Awards:** (incomplete)
-* ...
-        
-**Supported backends:** (incomplete)
-* ...
-
-      <li>Awards:</li>
-      <ul>
-        <li>Gold medal in <a href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.table.html">concurrency
+* Gold medal in <a href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.table.html">concurrency
             category</a> at <a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP'16</a>
-        </li>
-        <li>Silver medal in <a href="http://sv-comp.sosy-lab.org/2015/results/Concurrency.table.html">concurrency
+* Silver medal in <a href="http://sv-comp.sosy-lab.org/2015/results/Concurrency.table.html">concurrency
             category</a> at <a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP'15</a>
-        </li>
-        <li>Silver medal in <a href="http://sv-comp.sosy-lab.org/2014/results/Concurrency.table.html">concurrency
-            category</a> at <a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP'14<br>
-            <br>
-          </a></li>
-      </ul>
-      <li>Supported backends:</li>
-      <ul>
-        <li><a href="http://www.cprover.org/cbmc/">CBMC<br>
-            <br>
-          </a></li>
-      </ul>
-    </ul>
+* Silver medal in <a href="http://sv-comp.sosy-lab.org/2014/results/Concurrency.table.html">concurrency
+            category</a> at <a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP'14</a>
+   
+**Supported backends:** (incomplete)
+* <a href="http://www.cprover.org/cbmc/">CBMC</a>
+
 
 ## UL-CSeq
 
@@ -221,9 +206,10 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
 * <a href="ul-cseq-0.2">UL-CSeq-0.2</a> (<a href="http://atva2016.gforge.inria.fr/">ATVA'16</a> version)
 * <a href="ul-cseq-0.1">UL-CSeq-0.1</a> (<a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP'15</a> version)
           
-          
+<!---          
 **Awards:** (incomplete)
 * ...
+-->
         
 **Supported backends:** (incomplete)
 * <a href="http://www.cprover.org/cbmc/">CBMC</a>
@@ -232,15 +218,7 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
 * <a href="https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=tool&amp;tool=automizer">Ultimate Automizer</a>
 * <a href="http://vvt.forsyte.at/">VVT</a>
 
-      <li>SV-COMP results:</li>
-      <ul>
-        <li><a href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.table.html">2016</a>
-        </li>
-        <li><a             href="http://sv-comp.sosy-lab.org/2015/results/Concurrency.table.html">2015</a>
-        </li>
-      </ul>
 
-    
 ## LR CSeq
 
 LR-CSeq is a code-to-code translation tool which implements a novel sequentialization for C programs using POSIX threads, which extends the Lal/Reps sequentialization schema to support dynamic thread creation.

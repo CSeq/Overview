@@ -89,6 +89,7 @@ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded
         (<a href="http://eprints.soton.ac.uk/363742/">PDF</a>)
 
 **Downloads:**
+* <a href="https://github.com/omainv/cseq/releases/tag/1.9b">Lazy-CSeq-3.0</a>  (TOPLAS version, 2021.05.12)
 * <a href="lazy-cseq-2.0">Lazy-CSeq-2.0</a>  (2017.02.14)
 * <a href="lazy-cseq-1.0">Lazy-CSeq-1.0</a>  (2016.01.31), <a href="./files/experiment_data.tar.gz">experiments</a> and <a href="./files/lazy-cseq-1.0-demo.mov">demo video</a>
 * <a href="lazy-cseq-0.6c">Lazy-CSeq-0.6c</a> (<a href="http://sv-comp.sosy-lab.org/2015/">SVCOMP'15</a> version)
@@ -252,6 +253,14 @@ LR-CSeq is a code-to-code translation tool which implements a novel sequentializ
 * ...
 
 ## Other Publications
+* _A Pragmatic Verification Approach for Concurrent Programs_.
+  <a href="http://users.ecs.soton.ac.uk/tnl2g10/">T. Nguyen Lam</a>.
+  PhD Thesis, University of Southampton, 2017.
+  (<a href="https://eprints.soton.ac.uk/413593/">PDF</a>)
+* _Separating computation from communication:: a design approach for concurrent bug finding_.
+  <a href="http://users.ecs.soton.ac.uk/et1m11/">E. Tomasco</a>.
+  PhD Thesis, University of Southampton, 2017.
+  (<a href="https://eprints.soton.ac.uk/418976/">PDF</a>)
 * _Bounded Model Checking of Multi-threaded Programs via Sequentialization_.
   <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>.
   PhD Thesis, University of Southampton, 2015.

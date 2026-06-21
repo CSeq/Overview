@@ -34,7 +34,7 @@ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded
     <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
     <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer/">B. Fischer</a>,
     <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-    <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+    <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
     Formal Methods in Computer-Aided Design (<a href="http://www.cs.utexas.edu/users/hunt/FMCAD/FMCAD16/index.shtml">FMCAD</a>)
     Mountain View, CA, USA, 2016.
     (<a href="http://eprints.soton.ac.uk/397759/">PDF</a>)
@@ -44,7 +44,7 @@ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded
         <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>, 
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         5th Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP</a>), held at
         <a href="http://www.etaps.org/2016/tacas">TACAS,</a>
         Eindhoven, The Netherlands 2016.
@@ -54,7 +54,7 @@ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded
         <a href="http://users.ecs.soton.ac.uk/tnl2g10/">T. L. Nguyen</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         30th IEEE/ACM International Conference on Automated Software
         Engineering (<a href="http://ase2015.unl.edu/">ASE</a>),
         Lincoln, Nebraska, USA, 2015.
@@ -64,7 +64,7 @@ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded
         <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         4th Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP</a>), held at
         <a href="http://www.etaps.org/2015/tacas">TACAS,</a>
         London, UK, 2015.
@@ -74,7 +74,7 @@ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded
         <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         26th Int'l Conference on Computer Aided Verification (<a href="http://eprints.soton.ac.uk/365365/">CAV</a>),
         Vienna, Austria, 2014.
         (<a href="http://eprints.soton.ac.uk/365365/">PDF</a>) 
@@ -83,7 +83,7 @@ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded
         <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         3rd Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP</a>), held at
         <a href="http://www.etaps.org/index.php/2014/tacas">TACAS</a>,
         Grenoble, France, 2014,
@@ -117,7 +117,7 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
         <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>, 
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         5th Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP</a>),
         held at <a href="http://www.etaps.org/2016/tacas">TACAS,</a>
         Eindhoven, The Netherlands, 2016.
@@ -127,7 +127,7 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
         <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>, 
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         3rd Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP</a>), held at
         <a href="http://www.etaps.org/index.php/2014/tacas">TACAS</a>,
         Grenoble, France, 2014.
@@ -137,7 +137,7 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
         <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         21st Int'l Conference on Tools and Algorithms for the
         Construction and Analysis of Systems (<a href="http://www.etaps.org/2015/tacas">TACAS</a>),
         London, UK, 2015.
@@ -147,7 +147,7 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
         <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         4th Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP</a>), held at
         <a href="http://www.etaps.org/2015/tacas">TACAS</a>,<
         London, UK, 2015.
@@ -178,7 +178,7 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
         <a href="http://users.ecs.soton.ac.uk/tnl2g10/">T. L. Nguyen</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>, 
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         14th International Symposium on Automated Technology for
         Verification and Analysis (<a href="http://atva2016.gforge.inria.fr/">ATVA</a>)
         Chiba, Japan, 2016.
@@ -189,7 +189,7 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
         <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-        <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         5th Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP</a>), held at
         <a href="http://www.etaps.org/2016/tacas">TACAS,</a>
         Eindhoven, The Netherlands, 2016.
@@ -198,7 +198,7 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
    <a href="http://users.ecs.soton.ac.uk/tnl2g10/">T. L. Nguyen</a>,
    <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
    <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-   <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+   <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
    4th Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP</a>), 
    held at <a href="http://www.etaps.org/2015/tacas">TACAS</a>, London, UK, 2015.
    (<a href="http://eprints.soton.ac.uk/370672/">PDF</a>)
@@ -229,7 +229,7 @@ LR-CSeq is a code-to-code translation tool which implements a novel sequentializ
 * _CSeq: A Concurrency Pre-processor for Sequential C Verification Tools (Tool Demonstration)_.
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>, <a
           href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
-        and <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.<br>
+        and <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.<br>
         28th IEEE/ACM International Conference on Automated Software
         Engineering (<a href="http://ase-conferences.org/ase/past/ase2013/">ASE</a>),
         Palo Alto, CA, USA, 2013.
@@ -237,7 +237,7 @@ LR-CSeq is a code-to-code translation tool which implements a novel sequentializ
 * _CSeq: A Sequentialization Tool for C (Competition Contribution)_.
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>, <a
           href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
-        and <a href="http://users.ecs.soton.ac.uk/gp4/">G. Parlato</a>.
+        and <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         2nd Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2013/">SV-COMP</a>), held at
         <a href="http://www.etaps.org/index.php/2013/tacas">TACAS</a>, Rome, Italy, 2013.
         (<a href="http://eprints.soton.ac.uk/351904/">PDF</a>)
@@ -281,7 +281,7 @@ CSeq is developed by:
         (University of Stellenbosch, South Africa) 
 * <a href="http://www.di.unisa.it/%7Elatorre">Salvatore La Torre</a>
         (University of Salerno, Italy)
-* <a href="http://users.ecs.soton.ac.uk/gp4/">Gennaro Parlato</a>
+* <a href="https://gennaro-parlato.github.io/">Gennaro Parlato</a>
         (University of Southampton, UK)
  
 ## Funding

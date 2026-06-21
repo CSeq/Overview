@@ -277,6 +277,8 @@ CSeq is developed by:
         (University of Southampton, UK)
 * <a href="http://www.ecs.soton.ac.uk/people/et1m11">Ermenegildo
           Tomasco</a> (University of Southampton, UK)
+* <a href="https://www.diffblue.com/authors/peter-schrammel/">Peter Schrammel</a>
+        (Diffblue Ltd, Oxford, UK)
 * <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">Bernd Fischer</a>
         (University of Stellenbosch, South Africa) 
 * <a href="http://www.di.unisa.it/%7Elatorre">Salvatore La Torre</a>

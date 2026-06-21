@@ -31,7 +31,7 @@ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded
 * _Lazy Sequentialization for TSO and PSO via Shared Memory Abstractions_.
     <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
     <a href="http://users.ecs.soton.ac.uk/tnl2g10/">T. L. Nguyen</a>,
-    <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+    <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
     <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer/">B. Fischer</a>,
     <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
     <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
@@ -39,7 +39,7 @@ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded
     Mountain View, CA, USA, 2016.
     (<a href="http://eprints.soton.ac.uk/397759/">PDF</a>)
 * _Lazy-CSeq 1.0 (Competition Contribution)_.
-        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+        <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="http://users.ecs.soton.ac.uk/tnl2g10/">T. L. Nguyen</a>,
         <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>, 
@@ -50,7 +50,7 @@ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded
         Eindhoven, The Netherlands 2016.
         (<a href="http://eprints.soton.ac.uk/387010/">PDF</a>)
 * _Lazy-CSeq: A Context-Bounded Model Checking Tool for Multi-Threaded C-Programs (Tool Demonstration)_.
-        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+        <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="http://users.ecs.soton.ac.uk/tnl2g10/">T. L. Nguyen</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
@@ -60,7 +60,7 @@ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded
         Lincoln, Nebraska, USA, 2015.
         (<a href="http://eprints.soton.ac.uk/379595/">PDF</a>)
 * _Lazy-CSeq 0.6c: An Improved Lazy Sequentialization Tool for C (Competition Contribution)_.
-        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+        <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
@@ -70,7 +70,7 @@ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded
         London, UK, 2015.
         (<a href="http://eprints.soton.ac.uk/370673/">PDF</a>)<br>
 * _Bounded Model Checking of Multi-Threaded C Programs via Lazy Sequentialization_.
-        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+        <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
@@ -79,7 +79,7 @@ Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded
         Vienna, Austria, 2014.
         (<a href="http://eprints.soton.ac.uk/365365/">PDF</a>) 
  * _Lazy-CSeq: A Lazy Sequentialization Tool for C (Competition Contribution)_.
-        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+        <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
@@ -114,7 +114,7 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
 * _MU-CSeq 0.4: Individual Memory Location Unwindings (Competition Contribution)_.
         <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
         <a href="http://users.ecs.soton.ac.uk/tnl2g10/">T. L. Nguyen</a>,
-        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+        <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>, 
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
         <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
@@ -124,7 +124,7 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
         (<a href="http://eprints.soton.ac.uk/386736/">PDF</a>)
 * _MU-CSeq: Sequentialization of C Programs by Shared Memory Unwindings (Competition Contribution)_.
         <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
-        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+        <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>, 
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
         <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
@@ -134,7 +134,7 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
         (<a href="http://eprints.soton.ac.uk/363741/">PDF</a>) <br>
 * _Verifying Concurrent Programs by Memory Unwinding_.
         <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
-        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+        <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
         <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
@@ -144,7 +144,7 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
         (<a href="http://eprints.soton.ac.uk/370322/">PDF</a>)
 * _MU-CSeq 0.3: Sequentialization by Read-implicit and Coarse-grained Memory Unwindings (Competition Contribution)_.
         <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
-        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+        <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
         <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
@@ -185,7 +185,7 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
         (<a href="http://eprints.soton.ac.uk/397033/">PDF</a>)
 * _Unbounded Lazy-CSeq: A Lazy Sequentialization Tool for C with unboundedly many Context Switches (Competition Contribution)_.
         <a href="http://users.ecs.soton.ac.uk/tnl2g10/">T. L. Nguyen</a>,
-        <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+        <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="http://www.ecs.soton.ac.uk/people/et1m11">E. Tomasco</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
@@ -228,7 +228,7 @@ LR-CSeq is a code-to-code translation tool which implements a novel sequentializ
 **Publications:**
 * _CSeq: A Concurrency Pre-processor for Sequential C Verification Tools (Tool Demonstration)_.
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>, <a
-          href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+          href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         and <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.<br>
         28th IEEE/ACM International Conference on Automated Software
         Engineering (<a href="http://ase-conferences.org/ase/past/ase2013/">ASE</a>),
@@ -236,7 +236,7 @@ LR-CSeq is a code-to-code translation tool which implements a novel sequentializ
         (<a href="http://eprints.soton.ac.uk/365366/">PDF</a>)
 * _CSeq: A Sequentialization Tool for C (Competition Contribution)_.
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>, <a
-          href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>,
+          href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         and <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         2nd Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2013/">SV-COMP</a>), held at
         <a href="http://www.etaps.org/index.php/2013/tacas">TACAS</a>, Rome, Italy, 2013.
@@ -263,7 +263,7 @@ LR-CSeq is a code-to-code translation tool which implements a novel sequentializ
   PhD Thesis, University of Southampton, 2017.
   (<a href="https://eprints.soton.ac.uk/418976/">PDF</a>)
 * _Bounded Model Checking of Multi-threaded Programs via Sequentialization_.
-  <a href="http://www.ecs.soton.ac.uk/people/oi2c11">O. Inverso</a>.
+  <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>.
   PhD Thesis, University of Southampton, 2015.
   (<a href="http://eprints.soton.ac.uk/386739/">PDF</a>)
     
@@ -271,8 +271,8 @@ LR-CSeq is a code-to-code translation tool which implements a novel sequentializ
 ## People
 
 CSeq is developed by:
-* <a href="http://www.ecs.soton.ac.uk/people/oi2c11">Omar
-          Inverso</a> (University of Southampton, UK)
+* <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">Omar
+          Inverso</a> (Gran Sasso Science Institute (GSS), L'Aquila, Italy)
 * <a href="http://users.ecs.soton.ac.uk/tnl2g10/">Truc L. Nguyen</a>
         (University of Southampton, UK)
 * <a href="http://www.ecs.soton.ac.uk/people/et1m11">Ermenegildo
@@ -282,7 +282,7 @@ CSeq is developed by:
 * <a href="http://www.di.unisa.it/%7Elatorre">Salvatore La Torre</a>
         (University of Salerno, Italy)
 * <a href="https://gennaro-parlato.github.io/">Gennaro Parlato</a>
-        (University of Southampton, UK)
+        (University of Molise, Pesche, Italy)
  
 ## Funding
 

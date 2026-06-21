@@ -284,5 +284,8 @@ CSeq is developed by:
 * <a href="http://users.ecs.soton.ac.uk/gp4/">Gennaro Parlato</a>
         (University of Southampton, UK)
  
-## Funding (incomplete)
-This project is partially supported by <a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/M008991/1">EPSRC</a>.
+## Funding
+
+This work was partially supported by INDAM-GNCS 2019-2025 and 2021 Visiting Professor grants, by EPSRC grants <a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/M008991/1">EPSRC</a> and EP/P022413/1, by the University of Southampton Scholarship Schemes, by the AWS 2021 Amazon Research Awards, by the MUR projects ``Future Artificial Intelligence Research'' (FAIR) and ``Innovation, digitalization and sustainability for the diffused economy in Central Italy'', Spoke 1 MEGHALITIC, VITALITY Ecosystem, by the PRIN projects DREAM (20228FT78M) and PNRR DeLICE (F53D23009130001), by MUR-PNRR VITALITY (ECS00000041),
+by the MUR projects SOP (Securing sOftware Platforms, CUP: H73C22000890001) as
+part of the SERICS project (n. PE00000014 - CUP: B43C22000750006), by FARB 2020-2022 grants from Universit&agrave; degli Studi di Salerno, and by the ERASMUS+ International Credit Mobility Project 2024-1-IT02-KA171-HED-000224869.

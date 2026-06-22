@@ -11,6 +11,18 @@ This approach has three main advantages:
 
 CSeq is a framework that facilitates the development of code-to-code translations for concurrent C programs with POSIX threads based on sequentialization. The following are verification tools that have been developed under the CSeq framework.
 
+## LaDR
+
+LaDR is a symbolic static data race detection tool that modifies Lazy-CSeq's code-to-code translation to inject additional code that monitors all accesses to shared memory locations.
+
+**Publications:**
+
+**Downloads:**
+* <a href="https://github.com/giulio-garbi/LaDR">LaDR 0.1</a>  (Netys version, 2024.08.20)
+
+
+
+
 ## VeriSmart
 
 VeriSmart is a novel parallel bug-finding framework for concurrent C programs built on top of Lazy-CSeq. It uses a parametrizable code-to-code translation to generate a set of simpler program instances, each capturing a reduced set of the original program's interleavings. These instances are then  checked independently in parallel. With a small number of cores it found bugs in the hardest known concurrency benchmarks in a matter of minutes, whereas other dynamic and static tools fail to do so in hours.

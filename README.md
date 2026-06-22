@@ -13,14 +13,22 @@ CSeq is a framework that facilitates the development of code-to-code translation
 
 ## VeriSmart
 
-VeriSmart is a novel parallel bug-finding framework for concurrent C programs.
+VeriSmart is a novel parallel bug-finding framework for concurrent C programs. It uses a parametrizable code-to-code translation
+to generate a set of simpler program instances, each capturing a reduced set of the original program's interleavings. These instances are then  checked independently in parallel. We used Lazy-CSeq as an off-the-shelf final verifier running on a small number of cores to find bugs in the hardest known concurrency benchmarks in a matter of minutes, whereas other dynamic and static tools fail to do so in hours.
+
 
 **Publications:**
-- Truc L. Nguyen, Peter Schrammel, Bernd Fischer, Salvatore La Torre, Gennaro Parlato:
-<a href="https://ieeexplore.ieee.org/document/8115686">Parallel bug-finding in concurrent programs via reduced interleaving instances</a>. ASE 2017: 753-764. (<a href="https://eprints.soton.ac.uk/413917/">preprint</a>)
+* _<a href="https://ieeexplore.ieee.org/document/8115686">Parallel bug-finding in concurrent programs via reduced interleaving instances</a>_.
+    <a href="https://scholar.google.com/citations?user=GKJzjgwAAAAJ&hl=en">T. L. Nguyen</a>,
+    <a href="https://www.diffblue.com/authors/peter-schrammel/">Peter Schrammel</a>
+    <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer/">B. Fischer</a>,
+    <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
+    <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
+   32nd Intl. Conf. Automated Software Engineering, (ASE), Urbana, IL, USA, October 30 - November 3, 2017, pp.753-764.
+   (<a href="https://eprints.soton.ac.uk/413917/">preprint</a>)
 
 **Downloads:**
-- <a href="verismart-1.0">VeriSmart-1.0</a>(2017.09.11), <a href="./files/ase17_experiments.tar.gz">experiments</a>
+- <a href="verismart-1.0">VeriSmart-1.0</a> (2017.09.11), <a href="./files/ase17_experiments.tar.gz">experiments</a>
     
  
 ## Lazy-CSeq

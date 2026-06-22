@@ -234,20 +234,20 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
 LR-CSeq is a code-to-code translation tool which implements a novel sequentialization for C programs using POSIX threads, which extends the Lal/Reps sequentialization schema to support dynamic thread creation.
     
 **Publications:**
-* _CSeq: A Concurrency Pre-processor for Sequential C Verification Tools (Tool Demonstration)_.
-        <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>, <a
-          href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
+* _<a href="https://ieeexplore.ieee.org/document/6693139/">CSeq: A Concurrency Pre-processor for Sequential C Verification Tools (Tool Demonstration)</a>_.
+        <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
+        <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         and <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.<br>
         28th IEEE/ACM International Conference on Automated Software
         Engineering (<a href="http://ase-conferences.org/ase/past/ase2013/">ASE</a>),
-        Palo Alto, CA, USA, 2013.
+        Palo Alto, CA, USA, 2013, pp. 710-713.
         (<a href="http://eprints.soton.ac.uk/365366/">preprint</a>)
-* _CSeq: A Sequentialization Tool for C (Competition Contribution)_.
-        <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>, <a
-          href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
+* _<a href="https://link.springer.com/chapter/10.1007/978-3-642-36742-7_46">CSeq: A Sequentialization Tool for C (Competition Contribution)</a>_.
+        <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
+        <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         and <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         2nd Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2013/">SV-COMP</a>), held at
-        <a href="http://www.etaps.org/index.php/2013/tacas">TACAS</a>, Rome, Italy, 2013.
+        <a href="http://www.etaps.org/index.php/2013/tacas">TACAS</a>, Rome, Italy, 2013, pp. 616-618.
         (<a href="http://eprints.soton.ac.uk/351904/">preprint</a>)
 
 **Downloads:**
@@ -258,8 +258,11 @@ LR-CSeq is a code-to-code translation tool which implements a novel sequentializ
 **Awards:**
 * Silver medal in <a  href="http://sv-comp.sosy-lab.org/2013/results/concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2013/">SV-COMP'13</a>
         
-**Supported backends:** (incomplete)
-* ...
+**Supported backends:**
+* <a href="http://www.cprover.org/cbmc/">CBMC</a>
+* <a href="http://www.esbmc.org/">ESBMC</a>
+* <a href="http://llbmc.org/">LLBMC</a>
+
 
 ## Other Publications
 * _A Pragmatic Verification Approach for Concurrent Programs_.

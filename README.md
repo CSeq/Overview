@@ -301,20 +301,24 @@ LR-CSeq is a code-to-code translation tool which implements a novel sequentializ
 ## People
 
 CSeq is developed by:
+* <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">Bernd Fischer</a>
+        (University of Stellenbosch, South Africa)
+* <a href="https://scholar.google.com/citations?hl=en&user=S94fvCsAAAAJ">Giulio Garbi</a>
+        (University of Molise, Pesche, Italy)
 * <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">Omar
           Inverso</a> (Gran Sasso Science Institute (GSSI), L'Aquila, Italy)
-* <a href="https://scholar.google.com/citations?user=GKJzjgwAAAAJ&hl=en">Truc L. Nguyen</a>
-        (University of Southampton, UK)
-* <a href="https://scholar.google.com/citations?hl=en&user=NioQzrQAAAAJ">Ermenegildo
-          Tomasco</a> (University of Southampton, UK)
-* <a href="https://www.diffblue.com/authors/peter-schrammel/">Peter Schrammel</a>
-        (Diffblue Ltd, Oxford, UK)
-* <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">Bernd Fischer</a>
-        (University of Stellenbosch, South Africa) 
 * <a href="http://www.di.unisa.it/%7Elatorre">Salvatore La Torre</a>
         (University of Salerno, Fisciano, Italy)
+* <a href="https://scholar.google.com/citations?user=GKJzjgwAAAAJ&hl=en">Truc L. Nguyen</a>
+        (University of Southampton, UK)
 * <a href="https://gennaro-parlato.github.io/">Gennaro Parlato</a>
-        (University of Molise, Pesche, Italy)
+        (project leader, University of Molise, Pesche, Italy)
+* <a href="https://www.diffblue.com/authors/peter-schrammel/">Peter Schrammel</a>
+        (Diffblue Ltd, Oxford, UK)
+* <a href="https://scholar.google.com/citations?hl=en&user=NioQzrQAAAAJ">Ermenegildo
+          Tomasco</a> (University of Southampton, UK)
+
+  
  
 ## Funding
 

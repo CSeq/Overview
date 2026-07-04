@@ -290,7 +290,10 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
 
 ## LR CSeq
 
-LR-CSeq is a code-to-code translation tool which implements a novel sequentialization for C programs using POSIX threads, which extends the Lal/Reps sequentialization schema to support dynamic thread creation.
+LR-CSeq (originally simply called CSeq) is a code-to-code translation tool
+which implements a novel sequentialization for C programs using POSIX threads,
+which extends the Lal/Reps sequentialization schema to support dynamic thread
+creation.
     
 **Publications:**
 * _<a href="https://ieeexplore.ieee.org/document/6693139/">CSeq: A Concurrency Pre-processor for Sequential C Verification Tools (Tool Demonstration)</a>_.
@@ -306,12 +309,12 @@ LR-CSeq is a code-to-code translation tool which implements a novel sequentializ
         <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         and <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         2nd Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2013/">SV-COMP</a>), held at
-        <a href="http://www.etaps.org/index.php/2013/tacas">TACAS</a>, Rome, Italy, 2013, pp. 616-618.
+        <a href="http://www.etaps.org/index.php/2013/tacas">TACAS</a>, Rome, Italy, 2013, pp. 616-618, LNCS 9035.
         (<a href="http://eprints.soton.ac.uk/351904/">preprint</a>)
 
 **Downloads:**
-* <a href="lr-cseq-0.5">CSeq-0.5</a> (ASE version, includes benchmarks, <a href="./files/cseq-0.5-demo.mov">demo video</a>)
-* <a href="lr-cseq-0.1a">CSeq-0.1a</a> (<a href="http://sv-comp.sosy-lab.org/2013/">SV-COMP'13</a> version)
+* <a href="tools/lr-cseq-0.5">CSeq-0.5</a> (ASE version, includes benchmarks, <a href="presentations/cseq-0.5-demo.mov">demo video</a>)
+* <a href="tools/lr-cseq-0.1a">CSeq-0.1a</a> (<a href="http://sv-comp.sosy-lab.org/2013/">SV-COMP'13</a> version)
           
           
 **Awards:**

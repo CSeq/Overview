@@ -1,31 +1,57 @@
 
-
-
 # <img src="logo.png" width="100"> A Family of Sequentialization-Based C Verification Tools
 
-Sequentialization is a technique for the analysis of concurrent programs that exploits verification techniques or tools that were originally designed for sequential programs. Sequentialization can be implemented as a code-to-code translation from the concurrent program into a corresponding non-deterministic sequential program that simulates all executions of the original program. The sequential program contains both the mapping of the threads in the form of functions, and an encoding of the scheduler, were the non-determinism allows to handle different concurrent schedules collectively.
-This approach has three main advantages:
-* a code-to-code translation is typically much easier to implement than a full-fledged analysis tool;
-* it allows designers to focus only on the concurrency aspects of programs, delegating all sequential reasoning to an existing target analysis tool;
-* sequentializations can be designed to target multiple backends for sequential program analysis.
+Sequentialization is a technique for the analysis of concurrent programs that
+exploits verification techniques or tools that were originally designed for
+sequential programs. Sequentialization can be implemented as a code-to-code
+translation from the concurrent program into a corresponding non-deterministic
+sequential program that simulates all executions of the original program. The
+sequential program contains both the mapping of the threads in the form of
+functions, and an encoding of the scheduler, were the non-determinism allows to
+handle different concurrent schedules collectively.  This approach has three
+main advantages:
+* a code-to-code translation is typically much easier to implement than a
+* full-fledged analysis tool; it allows designers to focus only on the
+* concurrency aspects of programs, delegating all sequential reasoning to an
+* existing target analysis tool; sequentializations can be designed to target
+* multiple backends for sequential program analysis.
 
-CSeq is a framework that facilitates the development of code-to-code translations for concurrent C programs with POSIX threads based on sequentialization. The following are verification tools that have been developed under the CSeq framework.
+CSeq is a framework that facilitates the development of code-to-code
+translations for concurrent C programs with POSIX threads based on
+sequentialization. The following are verification tools that have been
+developed under the CSeq framework.
 
 ## LaDR
 
-LaDR is a symbolic static data race detection tool that modifies Lazy-CSeq's code-to-code translation to inject additional code that monitors all accesses to shared memory locations.
+LaDR (<a href="https://github.com/giulio-garbi/LaDR">github</a>)
+is a symbolic static data race detection tool that modifies Lazy-CSeq's
+code-to-code translation to inject additional code that monitors all accesses
+to shared memory locations.
 
 **Publications:**
 
+* _<a href="https://link.springer.com/chapter/10.1007/978-3-031-67321-4_8">Static Data Race Detection via Lazy Sequentialization</a>_. 
+    <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer/">B. Fischer</a>,
+    <a href="https://scholar.google.com/citations?hl=en&user=S94fvCsAAAAJ">G. Garbi</a>
+    <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, 
+    <a href="https://gennaro-parlato.github.io/">G. Parlato</a>, and
+    <a href="https://www.diffblue.com/authors/peter-schrammel/">P. Schrammel</a>.
+    12th International Conference on Networked Systems 
+    <a href="https://netys.net/history/netys2024/netys.net/index.html">NETYS 2024</a>, Rabat, Morocco, May 29-31, 2024, pp. 124-141, LNCS 14783.
+
 **Downloads:**
-* <a href="https://github.com/giulio-garbi/LaDR">LaDR 0.1</a>  (Netys version, 2024.08.20)
-
-
+* <a href="tools/ladr-0.1.tgz">LaDR 0.1</a> (Netys version, 2024.08.20)
 
 
 ## VeriSmart
 
-VeriSmart is a novel parallel bug-finding framework for concurrent C programs built on top of Lazy-CSeq. It uses a parametrizable code-to-code translation to generate a set of simpler program instances, each capturing a reduced set of the original program's interleavings. These instances are then  checked independently in parallel. With a small number of cores it found bugs in the hardest known concurrency benchmarks in a matter of minutes, whereas other dynamic and static tools fail to do so in hours.
+VeriSmart is a novel parallel bug-finding framework for concurrent C programs
+built on top of Lazy-CSeq. It uses a parametrizable code-to-code translation to
+generate a set of simpler program instances, each capturing a reduced set of
+the original program's interleavings. These instances are then  checked
+independently in parallel. With a small number of cores it found bugs in the
+hardest known concurrency benchmarks in a matter of minutes, whereas other
+dynamic and static tools fail to do so in hours.
 
 **Publications:**
 * _<a href="https://ieeexplore.ieee.org/document/8952527">VeriSmart 2.0: Swarm-Based Bug-Finding for Multi-threaded Programs with Lazy-CSeq</a>_.
@@ -45,11 +71,22 @@ VeriSmart is a novel parallel bug-finding framework for concurrent C programs bu
 **Downloads:**
 - <a href="verismart-1.0">VeriSmart-1.0</a> (2017.09.11), <a href="./files/ase17_experiments.tar.gz">experiments</a>
     
+
+## LazyABS
+
  
 ## Lazy-CSeq
- 
-Lazy-CSeq is a code-to-code transformation tool that translates a multi-threaded C program into a nondeterministic sequential C program that preserves reachability for all round-robin schedules with a given bound on the number of rounds. It re-uses existing high-performance BMC tools as backends for the sequential verification problem. The translation is carefully designed to introduce very small memory overheads and very few sources of nondeterminism, so that it produces tight SAT/SMT formulae, and is thus very effective in practice. The tool has a script that bundles the translation and the verification.
-        
+
+Lazy-CSeq is a code-to-code transformation tool that translates a
+multi-threaded C program into a nondeterministic sequential C program that
+preserves reachability for all round-robin schedules with a given bound on the
+number of rounds. It re-uses existing high-performance BMC tools as backends
+for the sequential verification problem. The translation is carefully designed
+to introduce very small memory overheads and very few sources of
+nondeterminism, so that it produces tight SAT/SMT formulae, and is thus very
+effective in practice. The tool has a script that bundles the translation and
+the verification.
+
 **Publications:**
 * _Lazy Sequentialization for TSO and PSO via Shared Memory Abstractions_.
     <a href="https://scholar.google.com/citations?hl=en&user=NioQzrQAAAAJ">E. Tomasco</a>,

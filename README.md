@@ -70,8 +70,10 @@ dynamic and static tools fail to do so in hours.
    (<a href="https://eprints.soton.ac.uk/413917/">preprint</a>)
 
 **Downloads:**
-- <a href="verismart-1.0">VeriSmart-1.0</a> (2017.09.11), <a href="./files/ase17_experiments.tar.gz">experiments</a>
-    
+* <a href="tools/verismart-1.0.tgz">VeriSmart-1.0</a> (2017.09.11), <a href="data/ase17_experiments.tar.gz">experiments</a>
+
+[//]: # (v0.1 SV-COMP17 in tools but not linked)
+
 
 ## LazyABS
 

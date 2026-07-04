@@ -288,7 +288,7 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
 * <a href="http://vvt.forsyte.at/">VVT</a>
 
 
-## LR CSeq
+## LR-CSeq
 
 LR-CSeq (originally simply called CSeq) is a code-to-code translation tool
 which implements a novel sequentialization for C programs using POSIX threads,
@@ -313,8 +313,8 @@ creation.
         (<a href="http://eprints.soton.ac.uk/351904/">preprint</a>)
 
 **Downloads:**
-* <a href="tools/lr-cseq-0.5.zip">CSeq-0.5</a> (ASE version, includes benchmarks, <a href="presentations/lr-cseq-0.5-demo.mov">demo video</a>)
-* <a href="tools/lr-cseq-0.1a.zip">CSeq-0.1a</a> (<a href="http://sv-comp.sosy-lab.org/2013/">SV-COMP'13</a> version)
+* <a href="tools/lr-cseq-0.5.zip">LR-CSeq-0.5</a> (ASE version, includes benchmarks, <a href="presentations/lr-cseq-0.5-demo.mov">demo video</a>)
+* <a href="tools/lr-cseq-0.1a.zip">LR-CSeq-0.1a</a> (<a href="http://sv-comp.sosy-lab.org/2013/">SV-COMP'13</a> version)
           
           
 **Awards:**

@@ -11,10 +11,11 @@ functions, and an encoding of the scheduler, were the non-determinism allows to
 handle different concurrent schedules collectively.  This approach has three
 main advantages:
 * a code-to-code translation is typically much easier to implement than a
-* full-fledged analysis tool; it allows designers to focus only on the
-* concurrency aspects of programs, delegating all sequential reasoning to an
-* existing target analysis tool; sequentializations can be designed to target
-* multiple backends for sequential program analysis.
+  full-fledged analysis tool; 
+* it allows designers to focus only on the concurrency aspects of programs, 
+  delegating all sequential reasoning to an  existing target analysis tool; 
+* sequentializations can be designed to target multiple backends for 
+  sequential program analysis.
 
 CSeq is a framework that facilitates the development of code-to-code
 translations for concurrent C programs with POSIX threads based on

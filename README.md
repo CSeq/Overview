@@ -85,7 +85,7 @@ framework for the interval analysis and CBMC as sequential verification backend
 with native support for bitvectors.
 
 **Publications:**
-* _<a href"https://doi.org/10.1007/978-3-319-59647-1_20">Concurrent Program Verification with Lazy Sequentialization and Interval Analysis</a>_.
+* _<a href="https://doi.org/10.1007/978-3-319-59647-1_20">Concurrent Program Verification with Lazy Sequentialization and Interval Analysis</a>_.
     <a href="https://scholar.google.com/citations?user=GKJzjgwAAAAJ&hl=en">T. L. Nguyen</a>,
     <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer/">B. Fischer</a>,
     <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
@@ -98,7 +98,7 @@ with native support for bitvectors.
     <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
     <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
     6th Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2017/">SV-COMP</a>), held at
-    <a href="http://www.etaps.org/index.php/2017/tacas">TACAS</a>, Rome, Italy, 2017, pp. 375-379, LNCS 206.
+    <a href="http://www.etaps.org/index.php/2017/tacas">TACAS</a>, Rome, Italy, 2017, pp. 375-379, LNCS 10206.
 
 **Downloads:**
 * <a href="tools/lazy-abs-0.1.tgz">Lazy-ABS-0.1</a>  (SV-COMP'17 version)

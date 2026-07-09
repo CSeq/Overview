@@ -184,9 +184,11 @@ the verification.
 
 **Downloads:**
 * <a href="https://github.com/omainv/cseq/releases/tag/1.9b">Lazy-CSeq-3.0</a>  (TOPLAS version, 2021.05.12)
-* <a href="lazy-cseq-2.0">Lazy-CSeq-2.0</a>  (2017.02.14)
-* <a href="lazy-cseq-1.0">Lazy-CSeq-1.0</a>  (2016.01.31), <a href="./files/experiment_data.tar.gz">experiments</a> and <a href="./files/lazy-cseq-1.0-demo.mov">demo video</a>
+* <a href="lazy-cseq-2.0">Lazy-CSeq-2.0</a>  (<a href="http://sv-comp.sosy-lab.org/2017/">SV-COMP'17</a> version, 2017.02.14)
+* <a href="lazy-cseq-1.0">Lazy-CSeq-1.0</a>  (<a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP'16</a> version, 2016.01.31), <a href="./files/experiment_data.tar.gz">experiments</a> and <a href="./files/lazy-cseq-1.0-demo.mov">demo video</a>
+<!---
 * <a href="lazy-cseq-0.6c">Lazy-CSeq-0.6c</a> (<a href="http://sv-comp.sosy-lab.org/2015/">SVCOMP'15</a> version)
+--->
 
 **Awards:**
 * Silver medal in <a href="http://sv-comp.sosy-lab.org/2022/results/results-verified/Concurrency.table.html">concurrency category</a> at <a href="http://sv-comp.sosy-lab.org/2022/">SV-COMP'22</a>
@@ -259,8 +261,10 @@ footprint of the unwinding and so allows larger unwinding bounds.
         (<a href="http://eprints.soton.ac.uk/363741/">preprint</a>) <br>
 
 **Downloads:**
-* <a href="mu-cseq-0.4">MU-CSeq-0.4</a> (<a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP'16</a> version)
+* <a href="tools/mu-cseq-0.4">MU-CSeq-0.4</a> (<a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP'16</a> version)
+<!---
 * <a href="mu-cseq-0.3">MU-CSeq-0.3</a> (<a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP'15</a> version)
+--->
           
 **Awards:**
 * Gold medal in <a href="http://sv-comp.sosy-lab.org/2016/results/results-verified/Concurrency.table.html">concurrency
@@ -312,12 +316,11 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
 
 
 **Downloads:**
-* <a href="ul-cseq-0.2">UL-CSeq-0.2</a> (<a href="http://atva2016.gforge.inria.fr/">ATVA'16</a> version)
-* <a href="ul-cseq-0.1">UL-CSeq-0.1</a> (<a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP'15</a> version)
+* <a href="tools/ul-cseq-0.2">UL-CSeq-0.2</a> (<a href="http://atva2016.gforge.inria.fr/">ATVA'16</a> version)
+* <a href="tools/ul-cseq-0.1">UL-CSeq-0.1</a> (<a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP'15</a> version)
           
 <!---          
-**Awards:** (incomplete)
-* ...
+**Awards:** (none)
 -->
         
 **Supported backends:**

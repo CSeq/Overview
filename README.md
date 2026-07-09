@@ -75,7 +75,33 @@ dynamic and static tools fail to do so in hours.
 [//]: # (v0.1 SV-COMP17 in tools but not linked)
 
 
-## LazyABS
+## Lazy-ABS
+
+Lazy-ABS integrates abstract interpretation into Lazy-CSeq's code-to-code
+transformation, in order to minimize the representation of the concurrent
+program’s state variables, and to scale up sequentialization to more complex
+concurrent verification tasks.  It relies on Frama-C as abstract interpretation
+framework for the interval analysis and CBMC as sequential verification backend
+with native support for bitvectors.
+
+**Publications:**
+* _<a href"https://doi.org/10.1007/978-3-319-59647-1_20">Concurrent Program Verification with Lazy Sequentialization and Interval Analysis</a>_.
+    <a href="https://scholar.google.com/citations?user=GKJzjgwAAAAJ&hl=en">T. L. Nguyen</a>,
+    <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer/">B. Fischer</a>,
+    <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
+    <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
+    <a href="https://netys.net/history/netys2017/netys.net/index.html">NETYS 2017</a>, Marrakech, Morocco, May 17-19, 2017, pp. 255-271, LNCS 10299.
+* _<a href="https://doi.org/10.1007/978-3-662-54580-5_26">Lazy-CSeq 2.0: Combining Lazy Sequentialization with Abstract Interpretation - (Competition Contribution)</a>_.
+    <a href="https://scholar.google.com/citations?user=GKJzjgwAAAAJ&hl=en">T. L. Nguyen</a>,
+    <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
+    <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer/">B. Fischer</a>,
+    <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
+    <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
+    6th Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2017/">SV-COMP</a>), held at
+    <a href="http://www.etaps.org/index.php/2017/tacas">TACAS</a>, Rome, Italy, 2017, pp. 375-379, LNCS 206.
+
+**Downloads:**
+* <a href="tools/lazy-abs-0.1.tgz">Lazy-ABS-0.1</a>  (SV-COMP'17 version)
 
  
 ## Lazy-CSeq

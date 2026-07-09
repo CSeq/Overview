@@ -127,6 +127,7 @@ the verification.
     Formal Methods in Computer-Aided Design (<a href="http://www.cs.utexas.edu/users/hunt/FMCAD/FMCAD16/index.shtml">FMCAD</a>)
     Mountain View, CA, USA, 2016.
     (<a href="http://eprints.soton.ac.uk/397759/">preprint</a>)
+<!---
 * _Lazy-CSeq 1.0 (Competition Contribution)_.
         <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="https://scholar.google.com/citations?user=GKJzjgwAAAAJ&hl=en">T. L. Nguyen</a>,
@@ -138,6 +139,7 @@ the verification.
         <a href="http://www.etaps.org/2016/tacas.html">TACAS,</a>
         Eindhoven, The Netherlands 2016.
         (<a href="http://eprints.soton.ac.uk/387010/">preprint</a>)
+--->
 * _<a href="https://doi.org/10.1109/ASE.2015.108">Lazy-CSeq: A Context-Bounded Model Checking Tool for Multi-Threaded C-Programs</a> (Tool Demonstration)_.
         <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="https://scholar.google.com/citations?user=GKJzjgwAAAAJ&hl=en">T. L. Nguyen</a>,
@@ -148,6 +150,7 @@ the verification.
         Engineering (<a href="http://ase2015.unl.edu/">ASE</a>),
         Lincoln, Nebraska, USA, 2015.
         (<a href="http://eprints.soton.ac.uk/379595/">preprint</a>)
+<!---
 * _Lazy-CSeq 0.6c: An Improved Lazy Sequentialization Tool for C (Competition Contribution)_.
         <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="https://scholar.google.com/citations?hl=en&user=NioQzrQAAAAJ">E. Tomasco</a>,
@@ -158,6 +161,7 @@ the verification.
         <a href="http://www.etaps.org/2015/tacas.html">TACAS,</a>
         London, UK, 2015.
         (<a href="http://eprints.soton.ac.uk/370673/">preprint</a>)<br>
+--->
 * _<a href="https://doi.org/10.1007/978-3-319-08867-9_39">Bounded Model Checking of Multi-Threaded C Programs via Lazy Sequentialization</a>_.
         <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="https://scholar.google.com/citations?hl=en&user=NioQzrQAAAAJ">E. Tomasco</a>,
@@ -284,6 +288,7 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
         Verification and Analysis (<a href="http://atva2016.gforge.inria.fr/">ATVA</a>)
         Chiba, Japan, 2016.
         (<a href="http://eprints.soton.ac.uk/397033/">preprint</a>)
+<!---
 * _Unbounded Lazy-CSeq: A Lazy Sequentialization Tool for C with unboundedly many Context Switches (Competition Contribution)_.
         <a href="https://scholar.google.com/citations?user=GKJzjgwAAAAJ&hl=en">T. L. Nguyen</a>,
         <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
@@ -295,6 +300,7 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
         <a href="http://www.etaps.org/2016/tacas.html">TACAS,</a>
         Eindhoven, The Netherlands, 2016.
         (<a href="http://eprints.soton.ac.uk/387011/">preprint</a>)
+--->
 * _<a href="https://doi.org/10.1007/978-3-662-46681-0_45">Unbounded Lazy-CSeq: A Lazy Sequentialization Tool for C Programs with Unbounded Context Switches (Competition Contribution)</a>_.
    <a href="https://scholar.google.com/citations?user=GKJzjgwAAAAJ&hl=en">T. L. Nguyen</a>,
    <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,

@@ -117,7 +117,7 @@ effective in practice. The tool has a script that bundles the translation and
 the verification.
 
 **Publications:**
-* _Lazy Sequentialization for TSO and PSO via Shared Memory Abstractions_.
+* _<a href=https://doi.org/10.1109/FMCAD.2016.7886679">Lazy Sequentialization for TSO and PSO via Shared Memory Abstractions</a>_.
     <a href="https://scholar.google.com/citations?hl=en&user=NioQzrQAAAAJ">E. Tomasco</a>,
     <a href="https://scholar.google.com/citations?user=GKJzjgwAAAAJ&hl=en">T. L. Nguyen</a>,
     <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
@@ -138,7 +138,7 @@ the verification.
         <a href="http://www.etaps.org/2016/tacas.html">TACAS,</a>
         Eindhoven, The Netherlands 2016.
         (<a href="http://eprints.soton.ac.uk/387010/">preprint</a>)
-* _Lazy-CSeq: A Context-Bounded Model Checking Tool for Multi-Threaded C-Programs (Tool Demonstration)_.
+* _<a href="https://doi.org/10.1109/ASE.2015.108">Lazy-CSeq: A Context-Bounded Model Checking Tool for Multi-Threaded C-Programs</a> (Tool Demonstration)_.
         <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="https://scholar.google.com/citations?user=GKJzjgwAAAAJ&hl=en">T. L. Nguyen</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
@@ -158,7 +158,7 @@ the verification.
         <a href="http://www.etaps.org/2015/tacas.html">TACAS,</a>
         London, UK, 2015.
         (<a href="http://eprints.soton.ac.uk/370673/">preprint</a>)<br>
-* _Bounded Model Checking of Multi-Threaded C Programs via Lazy Sequentialization_.
+* _<a href="https://doi.org/10.1007/978-3-319-08867-9_39">Bounded Model Checking of Multi-Threaded C Programs via Lazy Sequentialization</a>_.
         <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="https://scholar.google.com/citations?hl=en&user=NioQzrQAAAAJ">E. Tomasco</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
@@ -167,7 +167,7 @@ the verification.
         26th Int'l Conference on Computer Aided Verification (<a href="http://eprints.soton.ac.uk/365365/">CAV</a>),
         Vienna, Austria, 2014.
         (<a href="http://eprints.soton.ac.uk/365365/">preprint</a>) 
- * _Lazy-CSeq: A Lazy Sequentialization Tool for C (Competition Contribution)_.
+ * _<a href="https://doi.org/10.1007/978-3-642-54862-8_29">Lazy-CSeq: A Lazy Sequentialization Tool for C (Competition Contribution)</a>_.
         <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="https://scholar.google.com/citations?hl=en&user=NioQzrQAAAAJ">E. Tomasco</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
@@ -201,10 +201,18 @@ the verification.
 
 ## MU-CSeq
 
-MU-CSeq is a code-to-code translation tool for the verification of multi-threaded C programs with POSIX threads. It is based on sequentializing the programs according to a guessed sequence of write operations in the shared memory (memory unwinding, MU). The original algorithm (implemented in MU-CSeq 0.1) stores the values of all shared variables for each write (read-explicit fine-grained MU), which requires multiple copies of the shared variables. Our new algorithms (in MU-CSeq 0.3) store only the writes (read-implicit MU) or only a subset of the writes (coarse-grained MU), which reduces the memory footprint of the unwinding and so allows larger unwinding bounds.
+MU-CSeq is a code-to-code translation tool for the verification of
+multi-threaded C programs with POSIX threads. It is based on sequentializing
+the programs according to a guessed sequence of write operations in the shared
+memory (memory unwinding, MU). The original algorithm (implemented in MU-CSeq
+0.1) stores the values of all shared variables for each write (read-explicit
+fine-grained MU), which requires multiple copies of the shared variables. Our
+new algorithms (in MU-CSeq 0.3) store only the writes (read-implicit MU) or
+only a subset of the writes (coarse-grained MU), which reduces the memory
+footprint of the unwinding and so allows larger unwinding bounds.
 
 **Publications:**
-* _MU-CSeq 0.4: Individual Memory Location Unwindings (Competition Contribution)_.
+* _<a href="https://doi.org/10.1007/978-3-662-49674-9_65">MU-CSeq 0.4: Individual Memory Location Unwindings (Competition Contribution)</a>_.
         <a href="https://scholar.google.com/citations?hl=en&user=NioQzrQAAAAJ">E. Tomasco</a>,
         <a href="https://scholar.google.com/citations?user=GKJzjgwAAAAJ&hl=en">T. L. Nguyen</a>,
         <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
@@ -215,17 +223,7 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
         held at <a href="http://www.etaps.org/2016/tacas.html">TACAS,</a>
         Eindhoven, The Netherlands, 2016.
         (<a href="http://eprints.soton.ac.uk/386736/">preprint</a>)
-* _MU-CSeq: Sequentialization of C Programs by Shared Memory Unwindings (Competition Contribution)_.
-        <a href="https://scholar.google.com/citations?hl=en&user=NioQzrQAAAAJ">E. Tomasco</a>,
-        <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
-        <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>, 
-        <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
-        <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
-        3rd Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP</a>), held at
-        <a href="http://www.etaps.org/2014/tacas.html">TACAS</a>,
-        Grenoble, France, 2014.
-        (<a href="http://eprints.soton.ac.uk/363741/">preprint</a>) <br>
-* _Verifying Concurrent Programs by Memory Unwinding_.
+* _<a href="https://doi.org/10.1007/978-3-662-46681-0_52">Verifying Concurrent Programs by Memory Unwinding</a>_.
         <a href="https://scholar.google.com/citations?hl=en&user=NioQzrQAAAAJ">E. Tomasco</a>,
         <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
@@ -235,7 +233,7 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
         Construction and Analysis of Systems (<a href="http://www.etaps.org/2015/tacas.html">TACAS</a>),
         London, UK, 2015.
         (<a href="http://eprints.soton.ac.uk/370322/">preprint</a>)
-* _MU-CSeq 0.3: Sequentialization by Read-implicit and Coarse-grained Memory Unwindings (Competition Contribution)_.
+* _<a href="https://doi.org/10.1007/978-3-662-46681-0_38">MU-CSeq 0.3: Sequentialization by Read-implicit and Coarse-grained Memory Unwindings (Competition Contribution)</a>_.
         <a href="https://scholar.google.com/citations?hl=en&user=NioQzrQAAAAJ">E. Tomasco</a>,
         <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
@@ -245,6 +243,16 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
         <a href="http://www.etaps.org/2015/tacas.html">TACAS</a>,<
         London, UK, 2015.
         (<a href="http://eprints.soton.ac.uk/370671/">preprint</a>)
+* _<a href="https://doi.org/10.1007/978-3-642-54862-8_30">MU-CSeq: Sequentialization of C Programs by Shared Memory Unwindings (Competition Contribution)</a>_.
+        <a href="https://scholar.google.com/citations?hl=en&user=NioQzrQAAAAJ">E. Tomasco</a>,
+        <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
+        <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>, 
+        <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
+        <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
+        3rd Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP</a>), held at
+        <a href="http://www.etaps.org/2014/tacas.html">TACAS</a>,
+        Grenoble, France, 2014.
+        (<a href="http://eprints.soton.ac.uk/363741/">preprint</a>) <br>
 
 **Downloads:**
 * <a href="mu-cseq-0.4">MU-CSeq-0.4</a> (<a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP'16</a> version)

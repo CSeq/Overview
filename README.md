@@ -98,7 +98,7 @@ with native support for bitvectors.
     <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
     <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
     6th Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2017/">SV-COMP</a>), held at
-    <a href="http://www.etaps.org/2017/tacas">TACAS</a>, Rome, Italy, 2017, pp. 375-379, LNCS 10206.
+    <a href="http://www.etaps.org/2017/tacas.html">TACAS</a>, Rome, Italy, 2017, pp. 375-379, LNCS 10206.
 
 **Downloads:**
 * <a href="tools/lazy-abs-0.1.tgz">Lazy-ABS-0.1</a>  (SV-COMP'17 version)
@@ -135,7 +135,7 @@ the verification.
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
         <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         5th Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP</a>), held at
-        <a href="http://www.etaps.org/2016/tacas">TACAS,</a>
+        <a href="http://www.etaps.org/2016/tacas.html">TACAS,</a>
         Eindhoven, The Netherlands 2016.
         (<a href="http://eprints.soton.ac.uk/387010/">preprint</a>)
 * _Lazy-CSeq: A Context-Bounded Model Checking Tool for Multi-Threaded C-Programs (Tool Demonstration)_.
@@ -155,7 +155,7 @@ the verification.
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
         <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         4th Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP</a>), held at
-        <a href="http://www.etaps.org/2015/tacas">TACAS,</a>
+        <a href="http://www.etaps.org/2015/tacas.html">TACAS,</a>
         London, UK, 2015.
         (<a href="http://eprints.soton.ac.uk/370673/">preprint</a>)<br>
 * _Bounded Model Checking of Multi-Threaded C Programs via Lazy Sequentialization_.
@@ -174,7 +174,7 @@ the verification.
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
         <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         3rd Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP</a>), held at
-        <a href="http://www.etaps.org/2014/tacas">TACAS</a>,
+        <a href="http://www.etaps.org/2014/tacas.html">TACAS</a>,
         Grenoble, France, 2014,
         (<a href="http://eprints.soton.ac.uk/363742/">preprint</a>)
 
@@ -212,7 +212,7 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
         <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         5th Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP</a>),
-        held at <a href="http://www.etaps.org/2016/tacas">TACAS,</a>
+        held at <a href="http://www.etaps.org/2016/tacas.html">TACAS,</a>
         Eindhoven, The Netherlands, 2016.
         (<a href="http://eprints.soton.ac.uk/386736/">preprint</a>)
 * _MU-CSeq: Sequentialization of C Programs by Shared Memory Unwindings (Competition Contribution)_.
@@ -222,7 +222,7 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
         <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         3rd Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2014/">SV-COMP</a>), held at
-        <a href="http://www.etaps.org/2014/tacas">TACAS</a>,
+        <a href="http://www.etaps.org/2014/tacas.html">TACAS</a>,
         Grenoble, France, 2014.
         (<a href="http://eprints.soton.ac.uk/363741/">preprint</a>) <br>
 * _Verifying Concurrent Programs by Memory Unwinding_.
@@ -232,7 +232,7 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
         <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         21st Int'l Conference on Tools and Algorithms for the
-        Construction and Analysis of Systems (<a href="http://www.etaps.org/2015/tacas">TACAS</a>),
+        Construction and Analysis of Systems (<a href="http://www.etaps.org/2015/tacas.html">TACAS</a>),
         London, UK, 2015.
         (<a href="http://eprints.soton.ac.uk/370322/">preprint</a>)
 * _MU-CSeq 0.3: Sequentialization by Read-implicit and Coarse-grained Memory Unwindings (Competition Contribution)_.
@@ -242,7 +242,7 @@ MU-CSeq is a code-to-code translation tool for the verification of multi-threade
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
         <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         4th Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP</a>), held at
-        <a href="http://www.etaps.org/2015/tacas">TACAS</a>,<
+        <a href="http://www.etaps.org/2015/tacas.html">TACAS</a>,<
         London, UK, 2015.
         (<a href="http://eprints.soton.ac.uk/370671/">preprint</a>)
 
@@ -284,7 +284,7 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
         <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         5th Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2016/">SV-COMP</a>), held at
-        <a href="http://www.etaps.org/2016/tacas">TACAS,</a>
+        <a href="http://www.etaps.org/2016/tacas.html">TACAS,</a>
         Eindhoven, The Netherlands, 2016.
         (<a href="http://eprints.soton.ac.uk/387011/">preprint</a>)
 * _Unbounded Lazy-CSeq: A Lazy Sequentialization Tool for C Programs with Unbounded Context Switches (Competition Contribution)_.
@@ -293,7 +293,7 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
    <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
    <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
    4th Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2015/">SV-COMP</a>), 
-   held at <a href="http://www.etaps.org/2015/tacas">TACAS</a>, London, UK, 2015.
+   held at <a href="http://www.etaps.org/2015/tacas.html">TACAS</a>, London, UK, 2015.
    (<a href="http://eprints.soton.ac.uk/370672/">preprint</a>)
 
 
@@ -335,7 +335,7 @@ creation.
         <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
         and <a href="https://gennaro-parlato.github.io/">G. Parlato</a>.
         2nd Intl. Competition on Software Verification (<a href="http://sv-comp.sosy-lab.org/2013/">SV-COMP</a>), held at
-        <a href="http://www.etaps.org/2013/tacas">TACAS</a>, Rome, Italy, 2013, pp. 616-618, LNCS 9035.
+        <a href="http://www.etaps.org/2013/tacas.html">TACAS</a>, Rome, Italy, 2013, pp. 616-618, LNCS 9035.
         (<a href="http://eprints.soton.ac.uk/351904/">preprint</a>)
 
 **Downloads:**

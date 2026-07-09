@@ -117,7 +117,7 @@ effective in practice. The tool has a script that bundles the translation and
 the verification.
 
 **Publications:**
-* _<a href=https://doi.org/10.1109/FMCAD.2016.7886679">Lazy Sequentialization for TSO and PSO via Shared Memory Abstractions</a>_.
+* _<a href="https://doi.org/10.1109/FMCAD.2016.7886679">Lazy Sequentialization for TSO and PSO via Shared Memory Abstractions</a>_.
     <a href="https://scholar.google.com/citations?hl=en&user=NioQzrQAAAAJ">E. Tomasco</a>,
     <a href="https://scholar.google.com/citations?user=GKJzjgwAAAAJ&hl=en">T. L. Nguyen</a>,
     <a href="https://www.gssi.it/people/professors/lectures-computer-science/item/1018-inverso-omar">O. Inverso</a>,
@@ -275,7 +275,7 @@ footprint of the unwinding and so allows larger unwinding bounds.
 UL-CSeq is a code-to-code translation tool for the verification of multi-threaded C programs with dynamic thread creation. This tool implements a variation of the lazy sequentialization algorithm implemented in Lazy-CSeq. The main novelty is that UL-CSeq supports an unbounded number of context switches and allow unbounded loops, while the number of allowed threads still remains bounded.
 
 **Publications:**
-* _Lazy Sequentialization for the Safety Verification of Unbounded Concurrent Programs_.
+* _<a href="https://doi.org/10.1007/978-3-319-46520-3_12">Lazy Sequentialization for the Safety Verification of Unbounded Concurrent Programs</a>_.
         <a href="https://scholar.google.com/citations?user=GKJzjgwAAAAJ&hl=en">T. L. Nguyen</a>,
         <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>, 
         <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
@@ -295,7 +295,7 @@ UL-CSeq is a code-to-code translation tool for the verification of multi-threade
         <a href="http://www.etaps.org/2016/tacas.html">TACAS,</a>
         Eindhoven, The Netherlands, 2016.
         (<a href="http://eprints.soton.ac.uk/387011/">preprint</a>)
-* _Unbounded Lazy-CSeq: A Lazy Sequentialization Tool for C Programs with Unbounded Context Switches (Competition Contribution)_.
+* _<a href="https://doi.org/10.1007/978-3-662-46681-0_45">Unbounded Lazy-CSeq: A Lazy Sequentialization Tool for C Programs with Unbounded Context Switches (Competition Contribution)</a>_.
    <a href="https://scholar.google.com/citations?user=GKJzjgwAAAAJ&hl=en">T. L. Nguyen</a>,
    <a href="https://researcherprofiles.sun.ac.za/17783-bernd-fischer">B. Fischer</a>,
    <a href="http://www.di.unisa.it/%7Elatorre">S. La Torre</a>, and
